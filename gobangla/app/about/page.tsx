@@ -8,7 +8,7 @@ import Footer from "../Component/Footer";
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#ccb785]">
+    <main className="bg-[#998f77]">
       <Navbar></Navbar>
       
       {/* HERO */}
