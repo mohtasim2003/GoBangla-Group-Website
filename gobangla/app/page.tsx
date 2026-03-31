@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./Component/Navbar";
+import Footer from "./Component/Footer";
 
 
 export default function Home() {
@@ -29,7 +30,9 @@ export default function Home() {
     </section>
     <section className="w-full min-h-[90vh] p-6 bg-base-300">
     </section>
+    <Footer></Footer>
     </main>
+
    
   );
 }
