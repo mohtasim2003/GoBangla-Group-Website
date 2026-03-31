@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
         </svg>
 
         <p>
-          ACME Industries Ltd.
+          GoBangla Group.
           <br />
           Providing reliable tech since 1992
         </p>
