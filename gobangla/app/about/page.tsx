@@ -3,22 +3,22 @@
 import Link from "next/link";
 import React from "react";
 import Navbar from "../Component/Navbar";
+import Footer from "../Component/Footer";
 
 
 export default function AboutPage() {
   return (
-    <main className="bg-base-100">
+    <main className="bg-[#ccb785]">
       <Navbar></Navbar>
       
       {/* HERO */}
       <section className="bg-base-300 py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-base-content">
-            About <span className="bg-gradient-to-r from-[#9130f1] to-[#d79a50] bg-clip-text text-transparent">SkyPhonix</span>
+             <span className="bg-gradient-to-r from-[#9130f1] to-[#d79a50] bg-clip-text text-transparent">GoBangla Group</span>
           </h1>
           <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70">
-            Redefining airline management with flexibility, affordability,
-            and world-class service.
+            IT Solutions | Tour & Travels | Edtech
           </p>
         </div>
       </section>
@@ -132,6 +132,7 @@ export default function AboutPage() {
           </Link>
         </div>
       </section>
+      <Footer></Footer>
       
     </main>
   );
