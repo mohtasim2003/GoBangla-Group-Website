@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <h1 className="text-4xl md:text-6xl text-base-content font-bold leading-tight">
             Elevate Your Journey <br />
-            With <span className="bg-gradient-to-r from-[#9130f1] to-[#d79a50] bg-clip-text text-transparent">SkyPhoenix</span>
+            With <span className="bg-gradient-to-r text-yellow-400 bg-clip-text text-transparent">SkyPhoenix</span>
           </h1>
 
           <p className="mt-6 text-lg md:text-xl text-gray-600">

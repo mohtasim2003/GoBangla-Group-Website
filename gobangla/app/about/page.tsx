@@ -8,16 +8,16 @@ import Footer from "../Component/Footer";
 
 export default function AboutPage() {
   return (
-    <main className="bg-[#998f77]">
+    <main className="bg-white">
       <Navbar></Navbar>
       
       {/* HERO */}
-      <section className="bg-base-300 py-28">
+      <section className="bg-[#FFA500] py-28">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-base-content">
-             <span className="bg-gradient-to-r from-[#9130f1] to-[#d79a50] bg-clip-text text-transparent">GoBangla Group</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-base-content py-1">
+             <span className="bg-gradient-to-r from-[#080859] to-[#02022b] bg-clip-text text-transparent">GoBangla Group</span>
           </h1>
-          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70">
+          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70 text-black">
             IT Solutions | Tour & Travels | Edtech
           </p>
         </div>
