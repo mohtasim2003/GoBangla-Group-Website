@@ -1,5 +1,7 @@
 'use client';
 import React from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
@@ -25,6 +27,27 @@ const Footer: React.FC = () => {
            2/1 Lalmatia, Dhaka-1207, Bangladesh.
         </p>
 
+          <div className="flex justify-start items-center gap-4 mt-4">
+  <Link href="/">
+    <Image
+      src="/Fblogo.png"
+      alt="Facebook Logo"
+      width={20}
+      height={20}
+    />
+  </Link>
+
+  
+
+  <Link href="/">
+    <Image
+      src="/WhatsApplogo.png"
+      alt="WhatsApp Logo"
+      width={20}
+      height={20}
+    />
+  </Link>
+</div>
         
       </aside>
 

@@ -4,6 +4,7 @@ import Link from "next/link";
 import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
+import Image from "next/image";
 
 
 export default function AboutPage() {
@@ -115,19 +116,47 @@ export default function AboutPage() {
 
       {/* CTA */}
       <section className="py-24">
-        <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-6 text-black">
-            Fly Smarter with SkyPhonix
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
+            Our Proud Membership
           </h2>
-          <p className="text-base-content/70 mb-10 text-black">
-            Book your next journey with confidence, flexibility, and unbeatable
-            value.
-          </p>
-          <Link href={"/flights"} className="btn btn-accent rounded-2xl px-10 text-black">
-            Explore Flights
-          </Link>
-        </div>
-      </section>
+          </div>
+  <div className="max-w-4xl mx-auto px-6 flex justify-center items-center gap-8">
+    
+    <Image
+      src="/Basislogo.jpg"
+      alt="Basis Logo"
+      width={150}
+      height={150}
+    />
+
+    <Image
+      src="/Ecablogo.png"
+      alt="Ecab Logo"
+      width={150}
+      height={150}
+    />
+     <Image
+      src="/ContracLogo.jpg"
+      alt="Contrac Logo"
+      width={100}
+      height={100}
+    />
+     <Image
+      src="/BwcciLogo.png"
+      alt="Bwcci Logo"
+      width={100}
+      height={100}
+    />
+    <Image
+      src="/BaccoLogo.jpg"
+      alt="Bacco Logo"
+      width={150}
+      height={150}
+    />
+
+  </div>
+</section>
       <Footer></Footer>
       
     </main>
