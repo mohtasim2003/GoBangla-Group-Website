@@ -6,7 +6,7 @@ import AboutPage from "../about/page";
 
 const Navbar: React.FC = () => {
   return (
-    <div className="w-full navbar bg-white shadow-md px-6 py-4 fixed top-0 left-0 z-50 flex items-center gap-3">
+    <div className="w-full navbar bg-white shadow-md px-6 py-4 fixed top-0 left-0 z-50 flex items-center gap-3 sticky top-0 z-50">
       
       <Link href="/">
       <Image

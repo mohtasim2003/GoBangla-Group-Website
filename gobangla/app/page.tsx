@@ -9,7 +9,7 @@ export default function Home() {
       <Navbar></Navbar>
 
             {/* HERO */}
-      <section className="bg-[#FFA500] py-28">
+      <section className="bg-[#FFA500] py-3">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-base-content py-3">
              <span className="bg-gradient-to-r from-[#02022b] to-[#080859] bg-clip-text text-transparent">GoBangla Group</span>
@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full bg-base-300 min-h-[90vh] flex items-center justify-center px-6">
+      <section className="w-full bg-base-300 min-h-[65vh] flex items-center justify-center px-6">
       <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
         
         {/* Text Content */}
@@ -30,22 +30,105 @@ export default function Home() {
             With <span className="bg-gradient-to-r from-[#fa6c00] to-[#02022b] bg-clip-text text-transparent font-bold">GoBangla</span>
           </h1>
 
-          <p className="mt-6 text-lg md:text-xl text-[#b35107] font-semibold">
+          <p className="mt-6 text-lg md:text-xl text-[#17160d] font-semibold">
            Empowering Skills and Digital Transformation Since-2016
-            Trusted Across South Asia
-          </p>
+           Your Trusted Partner for IT Solutions, Tour & Travels and Edtech Services<br></br>
+           Trusted Across South Asia
 
-          
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <section className="min-h-[65vh] flex items-center justify-center bg-base-300 p-10">
+      <div className="card flex flex-row bg-gray-300 shadow-lg max-w-4xl w-full p-6 gap-8">
+
+        {/* Image */}
+        <div className="flex-shrink-0">
+        <img
+        src="/CEO.jpeg"
+        alt="CEO"
+        title="MD. Mostofa Jaman"
+        className="rounded-xl w-70 h-85 object-cover"
+        />
         </div>
 
+        {/* Text */}
+        <div className="flex flex-col justify-center">
+          <h2 className="text-2xl font-bold text-orange-900 mb-4">
+             Message from Founder & CEO
+          </h2>
+
+          <p className="text-gray-700 leading-relaxed">
+            “Welcome to GoBangla Group, where growth is powered by purpose, innovation, and excellence. We are committed 
+            to advancing gender equity, youth job placement, and sustainable development through modern technology, 
+            smart resources, and globally competitive solutions that align with the United Nations Sustainable Development 
+            Goals (SDGs). Across our diverse ventures and international partnerships, we deliver quality services at 
+            competitive rates while building lasting success stories for our clients, investors, and stakeholders. 
+            We believe that inclusive leadership, trust, and continuous innovation are the foundation of long-term 
+            value and global impact.”<br></br>
+             - MD. Mostofa Jaman,<br></br> 
+             Founder & CEO, GoBangla Group
+          </p>
+        </div>
 
       </div>
     </section>
-    <section className="w-full min-h-[90vh] p-6 bg-base-300">
+
+    {/* Vision */}
+<section className="py-10 flex justify-start bg-base-100 px-10">
+  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
+    <h3 className="text-3xl font-bold text-black mb-4">
+      Our Vision
+    </h3>
+    <p className="text-gray-700 leading-relaxed">
+      To be a global leader in IT solutions, tour & travels and edtech services, empowering individuals and 
+      businesses to thrive in the digital age while fostering sustainable development and social impact.
+    </p>
+  </div>
+</section>
+
+{/* Mission */}
+<section className="py-10 flex justify-end bg-base-100 px-10">
+  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
+    <h3 className="text-3xl font-bold text-black mb-4">
+      Our Mission
+    </h3>
+    <p className="text-gray-700 leading-relaxed">
+      To deliver innovative, cost-effective IT solutions, unforgettable travel experiences and transformative 
+      edtech services that drive growth, empower individuals, and contribute to a more inclusive and sustainable 
+      future.
+    </p>
+  </div>
+</section>
+
+    <section>
+      <div className="max-w-6xl mx-auto px-6 py-10 text-center">
+        <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-6 text-black">
+          Strategic Business units
+        </h2>
+        
+        <img
+          src="/Solutions.jpg"
+          alt="Solutions"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        
+      </div>
     </section>
+
+    <section className="py-10 flex justify-start bg-base-100 px-10">
+  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
+    <h3 className="text-3xl font-bold text-black mb-4">
+      Global Presence
+    </h3>
+    
+  </div>
+</section>
+
+
     <Footer></Footer>
     </main>
-
-   
   );
 }
