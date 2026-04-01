@@ -25,9 +25,17 @@ const Footer: React.FC = () => {
 
         <p className="mt-2 text-md text-white">
            2/1 Lalmatia, Dhaka-1207, Bangladesh.
+            <br></br>
+              <Link href="tel:+8801841779908-10" className="text-blue-400 hover:underline">
+                +8801841779908-10
+              </Link>
+              <br></br>
+              <Link href="mailto:gobangla@gmail.com" className="text-blue-400 hover:underline">
+                gobangla@gmail.com
+              </Link>
         </p>
 
-          <div className="flex justify-start items-center gap-4 mt-4">
+          <div className="flex justify-center items-center gap-4 mt-4">
   <Link href="/">
     <Image
       src="/Fblogo.png"
@@ -39,7 +47,7 @@ const Footer: React.FC = () => {
 
   
 
-  <Link href="/">
+  <Link href="https://wa.me/+8801841779909">
     <Image
       src="/WhatsApplogo.png"
       alt="WhatsApp Logo"
