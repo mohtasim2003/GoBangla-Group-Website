@@ -103,20 +103,40 @@ export default function Home() {
   </div>
 </section>
 
-    <section>
-      <div className="max-w-6xl mx-auto px-6 py-10 text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-6 text-black">
-          Strategic Business units
-        </h2>
-        
-        <img
-          src="/Solutions.jpg"
-          alt="Solutions"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        
-      </div>
-    </section>
+<section>
+  <div className="max-w-6xl mx-auto px-6 py-10 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+      Strategic Business Units
+    </h2>
+
+    {/* Image Row */}
+    <div className="flex justify-center gap-6 flex-wrap">
+
+      <img
+        src="/Logo.jpg"
+        alt="group"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+      <img
+        src="/Solutions.jpg"
+        alt="Solutions"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+      <img
+        src="/Academy.jpg"
+        alt="Academy"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+      <img
+        src=""
+        alt="SikbeSobai"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+    </div>
+  </div>
+</section>
+
+
 
     <section className="py-10 flex justify-start bg-base-100 px-10">
   <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
