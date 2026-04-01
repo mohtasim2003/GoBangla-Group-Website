@@ -84,31 +84,28 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-3 gap-10">
             <div className="card bg-base-100 p-8 shadow-lg">
               <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
-                Flexible Bookings
+                Client-Focused Service
               </h3>
               <p className="text-base-content/70 text-black">
-                Modify, reschedule, or cancel flights with minimal hassle.
-                Travel plans should adapt to your life.
+                GoBangla prioritizes client satisfaction with dedicated support, timely delivery, and customized solutions tailored to each business.
               </p>
             </div>
 
             <div className="card bg-base-100 text-base-content p-8 shadow-lg">
               <h3 className="text-xl font-semibold mb-4 text-black">
-                Discounted Tickets
+                Multi-Sector Expertise
               </h3>
               <p className="text-base-content/70 text-black">
-                Access exclusive deals and competitive pricing without
-                compromising on comfort or safety.
+                From e-commerce to e-learning and corporate services, GoBangla Group works across multiple industries—making it a one-stop solution for diverse business needs.
               </p>
             </div>
 
             <div className="card bg-base-100 p-8 shadow-lg">
               <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
-                Premium Experience
+                Trusted & Reliable Service
               </h3>
               <p className="text-base-content/70 text-black">
-                Enjoy a modern, intuitive platform backed by trusted airline
-                partners worldwide.
+                GoBangla Group is committed to delivering consistent and dependable solutions, ensuring client satisfaction and long-term trust.
               </p>
             </div>
           </div>
