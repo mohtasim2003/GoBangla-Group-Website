@@ -40,8 +40,8 @@ const Footer: React.FC = () => {
     <Image
       src="/Fblogo.png"
       alt="Facebook Logo"
-      width={20}
-      height={20}
+      width={30}
+      height={30}
     />
   </Link>
 
@@ -51,8 +51,8 @@ const Footer: React.FC = () => {
     <Image
       src="/WhatsApplogo.png"
       alt="WhatsApp Logo"
-      width={20}
-      height={20}
+      width={30}
+      height={30}
     />
   </Link>
 </div>
