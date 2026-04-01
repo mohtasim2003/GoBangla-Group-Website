@@ -29,47 +29,43 @@ export default function AboutPage() {
           
           {/* Text */}
           <div>
-            <h2 className="text-3xl text-base-content font-bold mb-6">
+            <h2 className="text-3xl text-base-content font-bold mb-6 text-black">
               Who We Are
             </h2>
-            <p className="text-base-content/70 leading-relaxed mb-6">
-              <span className="font-semibold text-base-content">SkyPhonix</span>{" "}
-              is a next-generation airline management platform designed to make
-              air travel smarter, more affordable, and highly flexible. We
-              empower travelers to book flights with discounted rates while
-              maintaining premium safety and comfort standards.
+            <p className="text-base-content/70 leading-relaxed mb-6 text-black">
+              <span className="font-semibold text-base-content"> GoBangla</span>{" "}
+               is a leading IT/ITES firm in Bangladesh, delivering innovative, cost-effective
+              technology solutions and human capital development since 2016. By following global best practices
+              and embracing cutting-edge technologies, we drive professionalism, innovation, and future-ready
+              ICT solutions.
             </p>
-            <p className="text-base-content/70 leading-relaxed">
-              Whether you are planning a business trip or a vacation, SkyPhonix
-              ensures a seamless booking experience backed by modern technology
-              and reliable airline partnerships.
-            </p>
+            
           </div>
 
           {/* Stats / Cards */}
           <div className="grid grid-cols-2 gap-6">
-            <div className="card bg-base-200 p-6 text-center shadow-md">
-              <h3 className="text-3xl font-bold text-accent">50+</h3>
-              <p className="mt-2 text-sm text-base-content/70">
-                Global Destinations
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <h3 className="text-3xl font-bold text-accent text-black">50,000+</h3>
+              <p className="mt-2 text-sm text-base-content/70 text-black">
+                Learners Trained
               </p>
             </div>
-            <div className="card bg-base-200 p-6 text-center shadow-md">
-              <h3 className="text-3xl font-bold text-accent">30%</h3>
-              <p className="mt-2 text-sm text-base-content/70">
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <h3 className="text-3xl font-bold text-accent text-black">30%</h3>
+              <p className="mt-2 text-sm text-base-content/70 text-black">
                 Average Discounts
               </p>
             </div>
-            <div className="card bg-base-200 p-6 text-center shadow-md">
-              <h3 className="text-3xl font-bold text-accent">24/7</h3>
-              <p className="mt-2 text-sm text-base-content/70">
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <h3 className="text-3xl font-bold text-accent text-black">24/7</h3>
+              <p className="mt-2 text-sm text-base-content/70 text-black">
                 Customer Support
               </p>
             </div>
-            <div className="card bg-base-200 p-6 text-center shadow-md">
-              <h3 className="text-3xl font-bold text-accent">100%</h3>
-              <p className="mt-2 text-sm text-base-content/70">
-                Secure Booking
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <h3 className="text-3xl font-bold text-accent text-black">100%</h3>
+              <p className="mt-2 text-sm text-base-content/70 text-black">
+                Strong contribution to workforce development
               </p>
             </div>
           </div>
@@ -79,36 +75,36 @@ export default function AboutPage() {
       {/* WHY CHOOSE US */}
       <section className="py-24 bg-base-200">
         <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12">
-            Why Choose SkyPhonix?
+          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
+            Why Choose GoBangla?
           </h2>
 
           <div className="grid md:grid-cols-3 gap-10">
             <div className="card bg-base-100 p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-base-content">
+              <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
                 Flexible Bookings
               </h3>
-              <p className="text-base-content/70">
+              <p className="text-base-content/70 text-black">
                 Modify, reschedule, or cancel flights with minimal hassle.
                 Travel plans should adapt to your life.
               </p>
             </div>
 
             <div className="card bg-base-100 text-base-content p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4">
+              <h3 className="text-xl font-semibold mb-4 text-black">
                 Discounted Tickets
               </h3>
-              <p className="text-base-content/70">
+              <p className="text-base-content/70 text-black">
                 Access exclusive deals and competitive pricing without
                 compromising on comfort or safety.
               </p>
             </div>
 
             <div className="card bg-base-100 p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-base-content">
+              <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
                 Premium Experience
               </h3>
-              <p className="text-base-content/70">
+              <p className="text-base-content/70 text-black">
                 Enjoy a modern, intuitive platform backed by trusted airline
                 partners worldwide.
               </p>
@@ -120,14 +116,14 @@ export default function AboutPage() {
       {/* CTA */}
       <section className="py-24">
         <div className="max-w-4xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-6">
+          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-6 text-black">
             Fly Smarter with SkyPhonix
           </h2>
-          <p className="text-base-content/70 mb-10">
+          <p className="text-base-content/70 mb-10 text-black">
             Book your next journey with confidence, flexibility, and unbeatable
             value.
           </p>
-          <Link href={"/flights"} className="btn btn-accent rounded-2xl px-10">
+          <Link href={"/flights"} className="btn btn-accent rounded-2xl px-10 text-black">
             Explore Flights
           </Link>
         </div>

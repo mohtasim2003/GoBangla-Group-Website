@@ -17,11 +17,11 @@ const Footer: React.FC = () => {
           <path d="M22.672 15.226l-2.432...-4.829z" />
         </svg>
 
-        <p className="mt-2 text-2xl text-semibold text-blue-900">
+        <p className="mt-2 text-2xl text-semibold text-white">
           GoBangla Group.
         </p>
 
-        <p className="mt-2 text-md text-blue-900">
+        <p className="mt-2 text-md text-white">
            2/1 Lalmatia, Dhaka-1207, Bangladesh.
         </p>
 
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
       </aside>
 
       <nav>
-        <h6 className="mt-3 text-md text-black text-center">
+        <h6 className="mt-3 text-md text-white text-center">
            Copyright © 2026 • All Rights Reserved</h6>
         <div className="grid grid-flow-col gap-4">
           <a>
