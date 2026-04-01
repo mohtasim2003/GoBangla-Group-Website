@@ -11,14 +11,15 @@ export default function AboutPage() {
   return (
     <main className="bg-white">
       <Navbar></Navbar>
+
       
-      {/* HERO */}
-      <section className="bg-[#FFA500] py-28">
+            {/* HERO */}
+      <section className="bg-[#FFA500] py-3">
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-base-content py-3">
-             <span className="bg-gradient-to-r from-[#080859] to-[#02022b] bg-clip-text text-transparent">GoBangla Group</span>
+             <span className="bg-gradient-to-r from-[#02022b] to-[#080859] bg-clip-text text-transparent">GoBangla Group</span>
           </h1>
-          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70 text-black">
+          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70 text-black text-semibold">
             IT Solutions | Tour & Travels | Edtech
           </p>
         </div>

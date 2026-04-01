@@ -47,7 +47,7 @@ export default function Home() {
         {/* Image */}
         <div className="flex-shrink-0">
         <img
-        src="/CEO.jpeg"
+        src="/Profile.jpeg"
         alt="CEO"
         title="MD. Mostofa Jaman"
         className="rounded-xl w-70 h-85 object-cover"
@@ -104,7 +104,7 @@ export default function Home() {
 </section>
 
 <section>
-  <div className="max-w-6xl mx-auto px-6 py-10 text-center">
+  <div className=" shadow-lg max-w-6xl mx-auto px-6 py-10 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
       Strategic Business Units
     </h2>
@@ -128,21 +128,67 @@ export default function Home() {
         className="rounded-xl w-40 h-40 object-cover"
       />
       <img
-        src=""
-        alt="SikbeSobai"
+        src="/ToursLogo.jpg"
+        alt="Travels"
         className="rounded-xl w-40 h-40 object-cover"
       />
+      <img
+        src="/StayinLogo.jpg"
+        alt="Malyasia"
+        className="rounded-xl w-40 h-40 object-cover"
+       />
+  
+      
     </div>
   </div>
 </section>
 
 
 
-    <section className="py-10 flex justify-start bg-base-100 px-10">
-  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
-    <h3 className="text-3xl font-bold text-black mb-4">
+    <section className="py-10 flex justify-center bg-base-100 px-10">
+  <div className="shadow-lg max-w-6xl w-full p-6">
+    <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
       Global Presence
     </h3>
+    {/* Image Row */}
+    <div className="flex justify-center gap-6 flex-wrap">
+      <div>
+        <img
+        src="/bd.jpg"
+        alt="Bangladesh"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+        <p className="mt-2 font-semibold text-black flex justify-center">Bangladesh</p>
+      </div>
+
+      <div>
+        <img
+        src="/Maly.png"
+        alt="Malaysia"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+        <p className="mt-2 font-semibold text-black flex justify-center">Malaysia</p>
+      </div>
+
+      <div>
+        <img
+        src="/Nepal.jpg"
+        alt="Nepal"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+        <p className="mt-2 font-semibold text-black flex justify-center">Nepal</p>
+      </div>
+
+
+      <div>
+        <img
+        src="/india.png"
+        alt="India"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+        <p className="mt-2 font-semibold text-black flex justify-center">India</p>
+      </div>
+    </div>
     
   </div>
 </section>
