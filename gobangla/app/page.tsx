@@ -127,11 +127,7 @@ export default function Home() {
         alt="Academy"
         className="rounded-xl w-40 h-40 object-cover"
       />
-      <img
-        src=""
-        alt="SikbeSobai"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
+      
     </div>
   </div>
 </section>
