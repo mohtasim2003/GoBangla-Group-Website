@@ -121,7 +121,7 @@ export default function Home() {
     <div className="flex justify-center gap-6 flex-wrap">
 
       <img
-        src="/Logo.jpg"
+        src="/Logo.png"
         alt="group"
         className="rounded-xl w-40 h-40 object-cover"
       />

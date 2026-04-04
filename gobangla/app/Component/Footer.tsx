@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
 
       <nav>
         <h6 className="mt-3 text-md text-white text-center">
-           Copyright © 2026 • All Rights Reserved</h6>
+           Copyright © 2026 •  All Rights Reserved</h6>
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg width={24} height={24} viewBox="0 0 24 24" className="fill-current">
