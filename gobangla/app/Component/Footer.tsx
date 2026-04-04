@@ -25,13 +25,13 @@ const Footer: React.FC = () => {
 
         <p className="mt-2 text-md text-white">
            2/1 Lalmatia, Dhaka-1207, Bangladesh.
-            <br></br>
+            <br></br>Phone: 
               <Link href="tel:+8801841779908-10" className="text-blue-400 hover:underline">
-                +8801841779908-10
+                +880 1841779908-10
               </Link>
-              <br></br>
+              <br></br>Email: 
               <Link href="mailto:gobangla@gmail.com" className="text-blue-400 hover:underline">
-                gobangla@gmail.com
+                 gobangla@gmail.com
               </Link>
         </p>
 
