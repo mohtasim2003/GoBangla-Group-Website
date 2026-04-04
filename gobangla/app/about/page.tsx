@@ -122,7 +122,7 @@ export default function AboutPage() {
   <div className="max-w-4xl mx-auto px-6 flex justify-center items-center gap-8">
     
     <Image
-      src="/Basislogo.jpg"
+      src="/BassisLogo.png"
       alt="Basis Logo"
       width={150}
       height={150}
@@ -152,6 +152,20 @@ export default function AboutPage() {
       width={150}
       height={150}
     />
+
+     <Image
+      src="/Caab.jfif"
+      alt="Bacco Logo"
+      width={150}
+      height={150}
+    />
+    <Image
+      src="/MocabLogo.webp"
+      alt="Bacco Logo"
+      width={150}
+      height={150}
+    />
+
 
   </div>
 </section>
