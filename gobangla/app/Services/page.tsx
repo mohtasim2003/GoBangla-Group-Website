@@ -5,6 +5,7 @@ import React from "react";
 import Navbar from "../Component/Navbar";
 import Footer from "../Component/Footer";
 import Image from "next/image";
+import ServiceSlider from "../Component/ServiceSlider";
 export default function ServicePage() {
   return (
     <main className="bg-white">
@@ -37,6 +38,7 @@ export default function ServicePage() {
             </p>
             
           </div>
+          <ServiceSlider></ServiceSlider>
         </div>
       </section>
 
