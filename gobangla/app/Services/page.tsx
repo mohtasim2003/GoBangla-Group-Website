@@ -186,7 +186,7 @@ export default function ServicePage() {
       {/* Card 6 */}
       <div className="relative rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition duration-300 h-[300px] w-full">
         <Image
-          src="/Logo.jpeg"
+          src="/Logo.png"
           alt="GoBangla Group"
           width={320}
           height={300}
