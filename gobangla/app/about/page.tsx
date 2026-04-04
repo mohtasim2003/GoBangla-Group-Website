@@ -30,10 +30,10 @@ export default function AboutPage() {
           
           {/* Text */}
           <div>
-            <h2 className="text-3xl text-base-content font-bold mb-6 text-black">
+            <h2 className="text-5xl text-base-content font-bold mb-6 text-black">
               Who We Are
             </h2>
-            <p className="text-base-content/70 leading-relaxed mb-6 text-black">
+            <p className="text-base-content/70 leading-relaxed mb-6 text-black text-lg">
               <span className="font-semibold text-base-content"> GoBangla</span>{" "}
                is a leading IT/ITES firm in Bangladesh, delivering innovative, cost-effective
               technology solutions and human capital development since 2016. By following global best practices
@@ -75,6 +75,8 @@ export default function AboutPage() {
 
       {/* WHY CHOOSE US */}
       <section className="py-24 bg-base-200">
+        <div className="w-full shadow-lg px-6 py-6 bg-[#bebbc4]"> 
+          
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
             Why Choose GoBangla?
@@ -108,6 +110,7 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </section>
 

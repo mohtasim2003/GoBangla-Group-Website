@@ -29,12 +29,12 @@ export default function ServicePage() {
           
           {/* Text */}
           <div>
-            <h2 className="text-3xl text-base-content font-bold mb-6 text-black">
+            <h2 className="text-6xl text-base-content font-bold mb-6 text-black">
               Our Services
             </h2>
-            <p className="text-base-content/70 leading-relaxed mb-6 text-black">
+            <p className="text-base-content/70 leading-relaxed mb-6 text-black text-lg">
               <span className="font-semibold text-base-content">  GoBangla Group </span>{" "}
-              is your all-in-one platform for learning, innovation, and travel. From skill development at GoBangla Academy to smart business solutions, seamless travel services, and flexible online learning—we help you move forward with confidence.
+              is your all-in-one platform for learning, innovation, and travel. From skill development at GoBangla Academy to smart business solutions, seamless travel services, and flexible online learning.We help you move forward with confidence.
             </p>
             
           </div>
