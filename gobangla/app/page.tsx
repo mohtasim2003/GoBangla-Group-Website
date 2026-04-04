@@ -1,9 +1,12 @@
 import Image from "next/image";
 import Navbar from "./Component/Navbar";
 import Footer from "./Component/Footer";
+import HeroSlider from "./Component/HeroSlider";
+  
 
 
 export default function Home() {
+
   return (
     <main className="bg-white">
       <Navbar></Navbar>
@@ -20,25 +23,30 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="w-full bg-base-300 min-h-[65vh] flex items-center justify-center px-6">
-      <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
-        
-        {/* Text Content */}
-        <div>
-          <h1 className="text-4xl md:text-6xl text-base-content text-black font-bold leading-tight">
-            Elevate Your Journey <br />
-            With <span className="bg-gradient-to-r from-[#fa6c00] to-[#02022b] bg-clip-text text-transparent font-bold">GoBangla</span>
-          </h1>
+<section className="w-full bg-base-300 min-h-[65vh] flex items-center justify-center px-6 py-20">
+  <div className="max-w-6xl w-full grid md:grid-cols-2 gap-10 items-center">
 
-          <p className="mt-6 text-lg md:text-xl text-[#17160d] font-semibold">
-           Empowering Skills and Digital Transformation Since-2016
-           Your Trusted Partner for IT Solutions, Tour & Travels and Edtech Services<br></br>
-           Trusted Across South Asia
+    {/* LEFT: Text */}
+    <div>
+      <h1 className="text-4xl md:text-6xl text-black font-bold leading-tight">
+        Elevate Your Journey <br />
+        With{" "}
+        <span className="bg-gradient-to-r from-[#fa6c00] to-[#02022b] bg-clip-text text-transparent">
+          GoBangla
+        </span>
+      </h1>
 
-          </p>
-        </div>
-      </div>
-    </section>
+      <p className="mt-6 text-lg md:text-xl text-[#c44506] font-semibold">
+        Empowering Skills and Digital Transformation Since-2016 <br />
+        Your Trusted Partner for IT Solutions, Tour & Travels and Edtech Services <br />
+        Trusted Across South Asia
+      </p>
+    </div>
+
+    <HeroSlider />
+
+  </div>
+</section>
 
 
     <section className="min-h-[65vh] flex items-center justify-center bg-base-300 p-10">
@@ -76,35 +84,35 @@ export default function Home() {
       </div>
     </section>
 
-    {/* Vision */}
-<section className="py-10 flex justify-start bg-base-100 px-10">
-  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
-    <h3 className="text-3xl font-bold text-black mb-4">
-      Our Vision
-    </h3>
-    <p className="text-gray-700 leading-relaxed">
-      To be a global leader in IT solutions, tour & travels and edtech services, empowering individuals and 
-      businesses to thrive in the digital age while fostering sustainable development and social impact.
-    </p>
-  </div>
-</section>
+<section className="py-20 bg-base-100 px-15">
+  <div className="flex gap-8 justify-center">
 
-{/* Mission */}
-<section className="py-10 flex justify-end bg-base-100 px-10">
-  <div className="bg-gray-200 shadow-lg max-w-2xl w-full p-6">
-    <h3 className="text-3xl font-bold text-black mb-4">
-      Our Mission
-    </h3>
-    <p className="text-gray-700 leading-relaxed">
-      To deliver innovative, cost-effective IT solutions, unforgettable travel experiences and transformative 
-      edtech services that drive growth, empower individuals, and contribute to a more inclusive and sustainable 
-      future.
-    </p>
+    {/* Vision */}
+    <div className="bg-orange-300 shadow-lg max-w-md w-full p-6 justify-start">
+      <h3 className="text-3xl font-bold text-black mb-4">
+        Our Vision
+      </h3>
+      <p className="text-gray-900 leading-relaxed">
+        To be a global leader in IT solutions, tour & travels and edtech services, empowering individuals and businesses
+         to thrive in the digital age while fostering sustainable development and social impact.
+      </p>
+    </div>
+
+    {/* Mission */}
+    <div className="bg-yellow-300 shadow-lg max-w-md w-full p-6 justify-end">
+      <h3 className="text-3xl font-bold text-black mb-4">
+        Our Mission
+      </h3>
+      <p className="text-gray-900 leading-relaxed">
+        To deliver innovative, cost-effective IT solutions, unforgettable travel experiences and transformative edtech 
+        services that drive growth, empower individuals, and contribute to a more inclusive and sustainable future.
+      </p>
+    </div>
   </div>
 </section>
 
 <section>
-  <div className=" shadow-lg max-w-6xl mx-auto px-6 py-10 text-center">
+  <div className=" shadow-lg max-w-6xl mx-auto px-6 py-20 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
       Strategic Business Units
     </h2>
@@ -132,6 +140,12 @@ export default function Home() {
         alt="Travels"
         className="rounded-xl w-40 h-40 object-cover"
       />
+
+      <img
+        src="/ShikbeLogo.jpg"
+        alt="Shikbe"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
       <img
         src="/StayinLogo.jpg"
         alt="Malyasia"
@@ -144,8 +158,8 @@ export default function Home() {
 </section>
 
 
-
-    <section className="py-10 flex justify-center bg-base-100 px-10">
+    {/* Country Logos */}
+    <section className="py-20 flex justify-center bg-base-100 px-10">
   <div className="shadow-lg max-w-6xl w-full p-6">
     <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
       Global Presence
