@@ -56,10 +56,10 @@ const Footer: React.FC = () => {
 
     <Link href="/">
       <Image
-        src="/Linkedinlogo.avif"
+        src="/linkeLogo.webp"
         alt="LinkedIn Logo"
-        width={40}
-        height={40}
+        width={50}
+        height={50}
       />
     </Link>
 
