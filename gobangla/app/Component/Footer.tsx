@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
 
   {/* Social Icons (under text) */}
   <div className="absolute top-10 right-4 flex gap-3">
-    <Link href="/">
+    <Link href="">
       <Image
         src="/Fblogo.png"
         alt="Facebook Logo"
@@ -45,16 +45,16 @@ const Footer: React.FC = () => {
       />
     </Link>
 
-    <Link href="/">
+    <Link href="">
       <Image
-        src="/InstagramLogo.png"
+        src="/instagram-logo.avif"
         alt="Instagram Logo"
         width={40}
         height={40}
       />
     </Link>
 
-    <Link href="/">
+    <Link href="">
       <Image
         src="/Linkedinlogo.avif"
         alt="LinkedIn Logo"

@@ -36,7 +36,7 @@ export default function Home() {
         </span>
       </h1>
 
-      <p className="mt-6 text-lg md:text-xl text-[#c44506] font-semibold">
+      <p className="mt-6 text-lg md:text-xl text-black font-semibold">
         Empowering Skills and Digital Transformation Since-2016 <br />
         Your Trusted Partner for IT Solutions, Tour & Travels and Edtech Services <br />
         Trusted Across South Asia
@@ -112,51 +112,79 @@ export default function Home() {
 </section>
 
 <section>
-  <div className=" shadow-lg max-w-6xl mx-auto px-6 py-20 text-center">
+  <div className="shadow-lg max-w-6xl mx-auto px-6 py-20 text-center">
     <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
       Strategic Business Units
     </h2>
 
-    {/* Image Row */}
-    <div className="flex justify-center gap-6 flex-wrap">
+    {/* Grid with 2 rows and 3 logos per row */}
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+      {/* Row 1 */}
+      <div>
+        <img
+          src="/Logo.png"
+          alt="GoBangla"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">GoBangla</p>
+      </div>
 
-      <img
-        src="/Logo.png"
-        alt="group"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
-      <img
-        src="/Solutions.jpg"
-        alt="Solutions"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
-      <img
-        src="/Academy.jpg"
-        alt="Academy"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
-      <img
-        src="/ToursLogo.jpg"
-        alt="Travels"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
+      <div>
+        <img
+          src="/Solutions.jpg"
+          alt="Solutions"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">
+          GoBangla Solutions
+        </p>
+      </div>
 
-      <img
-        src="/ShikbeLogo.jpg"
-        alt="Shikbe"
-        className="rounded-xl w-40 h-40 object-cover"
-      />
-      <img
-        src="/StayinLogo.jpg"
-        alt="Malyasia"
-        className="rounded-xl w-40 h-40 object-cover"
-       />
-  
-      
+      <div>
+        <img
+          src="/Academy.jpg"
+          alt="Academy"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">
+          Learn with GoBangla
+        </p>
+      </div>
+
+      {/* Row 2 */}
+      <div>
+        <img
+          src="/ToursLogo.jpg"
+          alt="Travels"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">
+          GoBangla Tours & Travels
+        </p>
+      </div>
+
+      <div>
+        <img
+          src="/ShikbeLogo.jpg"
+          alt="Shikbe"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">Shikbe Sobai</p>
+      </div>
+
+      <div>
+        <img
+          src="/StayinLogo.jpg"
+          alt="Malaysia"
+          className="rounded-xl w-40 h-40 object-cover"
+        />
+        <p className="mt-2 font-semibold text-orange-400 text-center">
+          Stayin Malaysia
+        </p>
+      </div>
     </div>
   </div>
 </section>
-
 
     {/* Country Logos */}
     <section className="py-20 flex justify-center bg-base-100 px-10">
