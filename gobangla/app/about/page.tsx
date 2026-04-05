@@ -13,15 +13,21 @@ export default function AboutPage() {
 
       
             {/* HERO */}
-      <section className="bg-[#FFA500] py-3">
-        
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-base-content py-3">
-             <span className="bg-gradient-to-r from-[#02022b] to-[#080859] bg-clip-text text-transparent">GoBangla Group</span>
-          </h1>
-          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70 text-black text-semibold">
-            IT Solutions | Tour & Travels | Edtech
-          </p>
+      <section
+        className="relative bg-base-100 py-20 bg-center bg-cover pt-20"
+        style={{ backgroundImage: "url('/Sky.avif')" }}
+      >
+        <div className="absolute inset-0 bg-black/30"></div>
+
+        <div className="relative max-w-6xl mx-auto px-6 flex items-center justify-center text-center min-h-[100px]">
+          <div className="text-white">
+            <h1 className="mb-5 text-4xl md:text-5xl font-bold text-yellow-500">
+              GoBangla Group
+            </h1>
+            <p className="mb-5 text-lg text-blue-900">
+              IT Solutions | Tour & Travels | Edtech
+            </p>
+          </div>
         </div>
       </section>
 
@@ -75,45 +81,48 @@ export default function AboutPage() {
       </section>
 
       {/* WHY CHOOSE US */}
-      <section className="py-24 bg-base-200">
-        <div className="w-full shadow-lg px-6 py-6 bg-[#bebbc4]"> 
-          
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
-            Why Choose GoBangla?
-          </h2>
+      <section
+  className="py-24 bg-base-200 bg-cover bg-center relative"
+  style={{ backgroundImage: "url('/Sky.avif')" }}
+>
+  {/* Optional overlay for better text readability */}
+  <div className="absolute inset-0 bg-black/30"></div>
 
-          <div className="grid md:grid-cols-3 gap-10">
-            <div className="card bg-base-100 p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
-                Client-Focused Service
-              </h3>
-              <p className="text-base-content/70 text-black">
-                GoBangla prioritizes client satisfaction with dedicated support, timely delivery, and customized solutions tailored to each business.
-              </p>
-            </div>
+  <div className="relative max-w-6xl mx-auto px-6 text-center">
+    <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-white">
+      Why Choose GoBangla?
+    </h2>
 
-            <div className="card bg-base-100 text-base-content p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-black">
-                Multi-Sector Expertise
-              </h3>
-              <p className="text-base-content/70 text-black">
-                From e-commerce to e-learning and corporate services, GoBangla Group works across multiple industries—making it a one-stop solution for diverse business needs.
-              </p>
-            </div>
+    <div className="grid md:grid-cols-3 gap-10">
+      <div className="card bg-white/90 p-8 shadow-lg">
+        <h3 className="text-xl font-semibold mb-4 text-black">
+          Client-Focused Service
+        </h3>
+        <p className="text-black/70">
+          GoBangla prioritizes client satisfaction with dedicated support, timely delivery, and customized solutions tailored to each business.
+        </p>
+      </div>
 
-            <div className="card bg-base-100 p-8 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-base-content text-black">
-                Trusted & Reliable Service
-              </h3>
-              <p className="text-base-content/70 text-black">
-                GoBangla Group is committed to delivering consistent and dependable solutions, ensuring client satisfaction and long-term trust.
-              </p>
-            </div>
-          </div>
-        </div>
-        </div>
-      </section>
+      <div className="card bg-white/90 p-8 shadow-lg">
+        <h3 className="text-xl font-semibold mb-4 text-black">
+          Multi-Sector Expertise
+        </h3>
+        <p className="text-black/70">
+          From e-commerce to e-learning and corporate services, GoBangla Group works across multiple industries—making it a one-stop solution for diverse business needs.
+        </p>
+      </div>
+
+      <div className="card bg-white/90 p-8 shadow-lg">
+        <h3 className="text-xl font-semibold mb-4 text-black">
+          Trusted & Reliable Service
+        </h3>
+        <p className="text-black/70">
+          GoBangla Group is committed to delivering consistent and dependable solutions, ensuring client satisfaction and long-term trust.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
       {/* CTA */}
       <section className="py-24">
