@@ -14,6 +14,7 @@ export default function AboutPage() {
       
             {/* HERO */}
       <section className="bg-[#FFA500] py-3">
+        
         <div className="max-w-6xl mx-auto px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-base-content py-3">
              <span className="bg-gradient-to-r from-[#02022b] to-[#080859] bg-clip-text text-transparent">GoBangla Group</span>
@@ -30,7 +31,7 @@ export default function AboutPage() {
           
           {/* Text */}
           <div>
-            <h2 className="text-5xl text-base-content font-bold mb-6 text-black">
+            <h2 className="text-4xl text-base-content font-bold mb-6 text-black">
               Who We Are
             </h2>
             <p className="text-base-content/70 leading-relaxed mb-6 text-black text-lg">
