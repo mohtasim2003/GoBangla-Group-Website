@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="footer sm:footer-horizontal bg-[#02022b] text-gray-800 px-4 py-2">
+    <footer className="footer sm:footer-horizontal bg-[#02022b] text-gray-800 px-4 py-2 ">
       <aside>
         <svg
           width={50}
@@ -18,43 +18,73 @@ const Footer: React.FC = () => {
         >
           <path d="M22.672 15.226l-2.432...-4.829z" />
         </svg>
-
-        <p className="mt-2 text-2xl text-semibold text-white">
-          GoBangla Group.
-        </p>
-
-        <p className="mt-2 text-md text-white">
-           2/1 Lalmatia, Dhaka-1207, Bangladesh.
-            <br></br>Phone: 
-              <Link href="tel:+8801841779908-10" className="text-blue-400 hover:underline">
-                +880 1841779908-10
-              </Link>
-              <br></br>Email: 
-              <Link href="mailto:gobangla@gmail.com" className="text-blue-400 hover:underline">
-                 gobangla@gmail.com
-              </Link>
-        </p>
-
-          <div className="flex justify-center items-center gap-4 mt-4">
-  <Link href="/">
-    <Image
-      src="/Fblogo.png"
-      alt="Facebook Logo"
-      width={30}
-      height={30}
-    />
-  </Link>
-
+<div className="relative w-full">
   
+  {/* Top Right Text */}
+  <p className="absolute top-2 right-4 text-2xl font-semibold text-white">
+    Follow Us On
+  </p>
 
-  <Link href="https://wa.me/+8801841779909">
-    <Image
-      src="/WhatsApplogo.png"
-      alt="WhatsApp Logo"
-      width={30}
-      height={30}
-    />
-  </Link>
+  {/* Social Icons (under text) */}
+  <div className="absolute top-10 right-4 flex gap-3">
+    <Link href="/">
+      <Image
+        src="/Fblogo.png"
+        alt="Facebook Logo"
+        width={40}
+        height={40}
+      />
+    </Link>
+
+    <Link href="https://wa.me/+8801841779909">
+      <Image
+        src="/WhatsLogo.webp"
+        alt="WhatsApp Logo"
+        width={40}
+        height={40}
+      />
+    </Link>
+
+    <Link href="/">
+      <Image
+        src="/InstagramLogo.png"
+        alt="Instagram Logo"
+        width={40}
+        height={40}
+      />
+    </Link>
+
+    <Link href="/">
+      <Image
+        src="/Linkedinlogo.avif"
+        alt="LinkedIn Logo"
+        width={40}
+        height={40}
+      />
+    </Link>
+
+
+  </div>
+
+  {/* Left Content */}
+  <p className="mt-2 text-2xl font-semibold text-white">
+    GoBangla Group
+  </p>
+
+  <p className="mt-2 text-md text-white">
+    2/1 Lalmatia, Dhaka-1207, Bangladesh
+    <br />
+    Phone: 
+    <Link href="tel:+8801841779908-10" className="text-blue-400 hover:underline">
+      +880 1841779908-10
+    </Link>
+    <br />
+    Email: 
+    <Link href="mailto:gobangla@gmail.com" className="text-blue-400 hover:underline">
+      gobangla@gmail.com
+    </Link>
+  </p>
+
 </div>
         
       </aside>
