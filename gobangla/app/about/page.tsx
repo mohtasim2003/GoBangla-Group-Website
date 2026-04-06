@@ -124,8 +124,32 @@ export default function AboutPage() {
   </div>
 </section>
 
+      <section className="py-24">
+        <div className="max-w-6xl mx-auto px-6 text-center">
+          <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
+            Leadership Team 
+          </h2>
+          <div className="grid md:grid-cols-3 gap-10">
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <Image  
+                src="/Sabbir.jpg"
+                alt="Sabbir"
+                width={150}
+                height={150}
+                className="rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-bold text-black">Sabbir Hossain</h3>
+              <p className="text-sm text-base-content/70 text-black">
+                Founder & CEO
+              </p>
+            </div>
+          </div>
 
- {/* Country Logos */}
+        </div>
+      </section>
+
+
+ {/* Success */}
     <section className="py-20 flex justify-center bg-base-00 px-10">
   <div className="shadow-xl max-w-6xl w-full p-6 border-5 border-gray-300 rounded-xl bg-gray-100">
     <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
