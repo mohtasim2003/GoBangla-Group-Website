@@ -124,6 +124,76 @@ export default function AboutPage() {
   </div>
 </section>
 
+
+ {/* Country Logos */}
+    <section className="py-20 flex justify-center bg-base-00 px-10">
+  <div className="shadow-xl max-w-6xl w-full p-6 border-5 border-gray-300 rounded-xl bg-gray-100">
+    <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
+      Milestones of Success
+    </h3>
+    {/* Image Row */}
+    <div className="flex justify-center gap-6 flex-wrap">
+      <div>
+        <img
+        src="/Achive1.jpg"
+        alt="Bangladesh"
+        className="rounded-xl w-50 h-50 object-cover"
+      />
+      </div>
+
+      <div>
+        <img
+        src="/Achive2.jpeg"
+        alt="Malaysia"
+        className="rounded-xl w-60 h-50 object-cover"
+      />
+      </div>
+
+      <div>
+        <img
+        src="/Achive3.jpeg"
+        alt="Nepal"
+        className="rounded-xl w-50 h-50 object-cover"
+      />
+      </div>
+
+
+      <div>
+        <img
+        src="/Achive4.jpeg"
+        alt="India"
+        className="rounded-xl w-50 h-50 object-cover"
+      />
+      </div>
+
+       <div>
+        <img
+        src="/Achive5.jpeg"
+        alt="India"
+        className="rounded-xl w-50 h-50 object-cover"
+      />
+      </div>
+
+      <div>
+        <img
+        src="/Achive6.jpeg"
+        alt="India"
+        className="rounded-xl w-50 h-50 object-cover"
+      />
+      </div>
+      
+
+
+    </div>
+    
+  </div>
+</section>
+
+
+
+
+
+
       {/* CTA */}
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-6 text-center">
