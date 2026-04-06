@@ -37,8 +37,7 @@ export default function Home() {
       </h1>
 
       <p className="mt-6 text-lg md:text-xl text-black font-semibold">
-        Empowering Skills and Digital Transformation Since-2016 <br />
-        Your Trusted Partner for IT Solutions, Tour & Travels and Edtech Services <br />
+        Your Trusted Partner for IT Solutions, Edtech Services, Tour & Travels! <br />
         Trusted Across South Asia
       </p>
     </div>
@@ -111,77 +110,63 @@ export default function Home() {
   </div>
 </section>
 
-<section>
-  <div className="shadow-lg max-w-6xl mx-auto px-6 py-20 text-center">
-    <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+      <section
+  className="relative bg-center bg-cover"
+  style={{ backgroundImage: "url('/BusinessBG3.jpg')" }} // 🔁 replace with your image
+>
+  {/* Optional overlay (keeps readability) */}
+  <div className="absolute inset-0 bg-black/30"></div>
+
+  <div className="relative shadow-lg max-w-6xl mx-auto px-6 py-20 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-6">
       Strategic Business Units
     </h2>
 
-    {/* Grid with 2 rows and 3 logos per row */}
+    {/* Grid */}
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+
       {/* Row 1 */}
       <div>
-        <img
-          src="/Logo.png"
-          alt="GoBangla"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">GoBangla</p>
+        <img src="/Logo.png" alt="GoBangla" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">GoBangla Group</p>
       </div>
 
       <div>
-        <img
-          src="/Solutions.jpg"
-          alt="Solutions"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">
+        <img src="/Solutions.jpg" alt="Solutions" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
           GoBangla Solutions
         </p>
       </div>
 
       <div>
-        <img
-          src="/Academy.jpg"
-          alt="Academy"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">
+        <img src="/Academy.jpg" alt="Academy" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
           Learn with GoBangla
         </p>
       </div>
 
       {/* Row 2 */}
       <div>
-        <img
-          src="/ToursLogo.jpg"
-          alt="Travels"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">
+        <img src="/ToursLogo.jpg" alt="Travels" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
           GoBangla Tours & Travels
         </p>
       </div>
 
       <div>
-        <img
-          src="/ShikbeLogo.jpg"
-          alt="Shikbe"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">Shikbe Sobai</p>
+        <img src="/ShikbeLogo.jpg" alt="Shikbe" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
+          Shikbe Sobai
+        </p>
       </div>
 
       <div>
-        <img
-          src="/StayinLogo.jpg"
-          alt="Malaysia"
-          className="rounded-xl w-40 h-40 object-cover"
-        />
-        <p className="mt-2 font-semibold text-orange-400 text-center">
+        <img src="/StayinLogo.jpg" alt="Malaysia" className="rounded-xl w-80 h-60 object-cover" />
+        <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
           Stayin Malaysia
         </p>
       </div>
+
     </div>
   </div>
 </section>
