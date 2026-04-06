@@ -6,7 +6,7 @@ Welcome to the official **GoBangla Group** website. This platform showcases the 
 
 ## 🌐 Live Website
 
-[Visit GoBangla Group](https://www.gobanglasolutions.com/)
+[Visit GoBangla Group](https://www.gobanglagroup.com/)
 
 ---
 
@@ -41,7 +41,7 @@ Our goal is to provide seamless services, educational resources, and travel solu
 - **Frontend:** React, Next.js, Tailwind CSS  
 - **Animations:** Framer Motion  
 - **Email Service:** EmailJS  
-- **Hosting:** (Specify your hosting, e.g., Vercel or Netlify)  
+- **Hosting:** Vercel  
 
 ---
 
@@ -86,7 +86,7 @@ NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=""
 
 👥 Contributors
 Mohtasim-ur Rahman – Lead Developer
-Salman Farshi - Asistance Developer
+MD. Salman Farshi - Assistant Developer
 
 
 This README explains the website, features, stack, folder structure, and setup instructions.  
