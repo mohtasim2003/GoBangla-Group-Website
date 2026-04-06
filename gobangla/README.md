@@ -1,36 +1,96 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GoBangla Group Website
 
-## Getting Started
+Welcome to the official **GoBangla Group** website. This platform showcases the company's strategic business units, services, and provides a contact portal for inquiries, partnerships, and support.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌐 Live Website
 
-Open [http://localhost:7000](http://localhost:7000) with your browser to see the result.
+[Visit GoBangla Group](https://www.gobanglasolutions.com/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🏢 About GoBangla Group
 
-## Learn More
+GoBangla Group is a multi-service organization offering:
 
-To learn more about Next.js, take a look at the following resources:
+- **GoBangla** – Core business operations  
+- **GoBangla Solutions** – IT & digital solutions  
+- **Learn with GoBangla** – Online learning & academy programs  
+- **GoBangla Tours & Travels** – Travel and tourism services  
+- **Shikbe Sobai** – Educational platform for all  
+- **Stayin Malaysia** – Overseas accommodation & support
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Our goal is to provide seamless services, educational resources, and travel solutions to our clients.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📦 Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Modern, responsive design built with **Next.js** and **Tailwind CSS**  
+- Interactive **contact form** powered by **EmailJS**  
+- Framer Motion animations for smooth UI interactions  
+- Structured sections for strategic business units with logo grid  
+- Background images with overlays for professional look  
+- Fully mobile-responsive and accessible  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🛠 Technology Stack
+
+- **Frontend:** React, Next.js, Tailwind CSS  
+- **Animations:** Framer Motion  
+- **Email Service:** EmailJS  
+- **Hosting:** (Specify your hosting, e.g., Vercel or Netlify)  
+
+---
+
+## 📁 Folder Structure
+/gobangla
+│
+├─ /public
+│ ├─ Logo.png
+│ ├─ Solutions.jpg
+│ ├─ Academy.jpg
+│ ├─ ToursLogo.jpg
+│ ├─ ShikbeLogo.jpg
+│ ├─ StayinLogo.jpg
+│ └─ contactBG.jpg
+│
+├─ /pages
+│ ├─ index.tsx
+│ ├─ contact.tsx
+│
+├─ /components
+│ ├─ Navbar.tsx
+│ └─ Footer.tsx
+│
+├─ .env.local
+└─ package.json
+
+
+---
+
+## 📧 Contact Form
+
+The contact form is connected via **EmailJS**. Make sure to set your environment variables in `.env.local`:
+
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=""
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=""
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=""
+
+📌 License
+
+(MIT License).
+
+👥 Contributors
+Mohtasim-ur Rahman – Lead Developer
+Salman Farshi - Asistance Developer
+
+
+This README explains the website, features, stack, folder structure, and setup instructions.  
+
+If you want, I can also create a **more visually appealing version with badges, live preview link, and tech stack icons** that’s ready for GitHub—it’ll look professional instantly.  
+
+Do you want me to do that?
