@@ -12,18 +12,24 @@ export default function ServicePage() {
       <Navbar></Navbar>
 
       
-            {/* HERO */}
-      <section className="bg-[#FFA500] py-3">
-        <div className="max-w-6xl mx-auto px-6 text-center">
-          <h1 className="text-4xl md:text-6xl font-bold text-base-content py-3">
-             <span className="bg-gradient-to-r from-[#02022b] to-[#080859] bg-clip-text text-transparent">GoBangla Group</span>
-          </h1>
-          <p className="mt-6 text-lg md:text-xl max-w-3xl mx-auto text-base-content/70 text-black text-semibold">
-            IT Solutions | Tour & Travels | Edtech
-          </p>
+      {/* HERO */}
+     <section
+        className="relative bg-base-100 py-20 bg-center bg-cover pt-20"
+        style={{ backgroundImage: "url('/ServiceHero.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-black/30"></div>
+
+        <div className="relative max-w-6xl mx-auto px-6 flex items-center justify-center text-center min-h-[100px]">
+          <div className="text-white">
+            <h1 className="mb-5 text-4xl md:text-5xl font-bold text-yellow-500">
+              GoBangla Group
+            </h1>
+            <p className="mb-5 text-lg text-white">
+              IT Solutions | Tour & Travels | Edtech
+            </p>
+          </div>
         </div>
       </section>
-
       <section className="py-24">
         <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
           
@@ -41,57 +47,65 @@ export default function ServicePage() {
           <ServiceSlider></ServiceSlider>
         </div>
       </section>
+<section className="relative py-24 flex justify-center overflow-hidden">
 
+  {/* Background Image */}
+  <div className="absolute inset-0 z-0">
+    <Image
+      src="/ServiceBack.jpg"
+      alt="Background"
+      fill
+      style={{ objectFit: "cover" }}
+      priority
+    />
+    <div className="absolute inset-0 bg-black/30"></div>
+  </div>
+
+  {/* Content */}
+  <div className="relative w-full px-6 py-6 z-10">
+
+
+    {/* Title */}
+    <div className="text-center mb-12">
+      <h2 className="text-5xl font-bold text-white">
+        Explore GoBangla Group
+      </h2>
+      <p className="text-white mt-2">
+        Explore our world of innovation and services
+      </p>
+    </div>
+
+    {/* Cards Wrapper */}
+    <div className="max-w-7xl mx-auto px-6  rounded-2xl shadow-lg p-10">
       
-   {/* Explore GoBangla Section with Background Image behind cards */}
-      <section className="relative py-24 flex justify-center">
-        {/* Background image */}
-       
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
-        {/* Cards container */}
-        <div className="relative w-full shadow-lg px-6 py-6 bg-[#bebbc4] bg-opacity-90 rounded-2xl z-10">
-         
-         <div className="absolute inset-0">
+        {/* Card 1 */}
+        <div className="relative rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition duration-300 h-[300px] w-full">
           <Image
-            src="/ServiceBack.jpg" // Replace with your image
-            alt="Background"
+            src="/Solutions.jpg"
+            alt="Solutions"
             fill
             style={{ objectFit: "cover" }}
-            className="opacity-30" // make it slightly transparent
+            className="group-hover:scale-105 transition duration-500"
           />
-        </div>
-         
-          <div className="text-center mb-12">
-            <h2 className="text-5xl font-bold text-gray-900">Explore GoBangla Group</h2>
-            <p className="text-gray-900 mt-2">Explore our world of innovation and services</p>
+          <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent flex flex-col justify-end p-4">
+            <h2 className="text-white text-lg font-bold mb-1">GoBangla Solutions</h2>
+            <p className="text-gray-200 text-xs mb-2">
+              Empowering individuals with NSDA skill development training for future success.
+            </p>
+            <div className="flex justify-end">
+              <Link href="https://www.facebook.com/gobanglasolutions" target="_blank">
+                <button className="bg-blue-600 text-white px-3 py-1 rounded-lg shadow-md hover:bg-blue-700 hover:scale-105 transition duration-300 text-sm">
+                  Visit Site
+                </button>
+              </Link>
+            </div>
           </div>
-
-          <div className="max-w-7xl mx-auto px-6 bg-[#a8996f] rounded-2xl shadow-lg p-10">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-
-              {/* Card 1 */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition duration-300 h-[300px] w-full">
-                <Image
-                  src="/Solutions.jpg"
-                  alt="Solutions"
-                  fill
-                  style={{ objectFit: "cover" }}
-                  className="group-hover:scale-105 transition duration-500"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/50 to-transparent flex flex-col justify-end p-4">
-                  <h2 className="text-white text-lg font-bold mb-1">GoBangla Solutions</h2>
-                  <p className="text-gray-200 text-xs mb-2">
-                    Empowering individuals with NSDA skill development training for future success.
-                  </p>
-                  <div className="card-actions flex justify-end">
-                    <Link href="https://www.facebook.com/gobanglasolutions" target="_blank">
-                      <button className="bg-blue-600 text-white px-3 py-1 rounded-lg shadow-md hover:bg-blue-700 hover:scale-105 transition duration-300 text-sm">
-                        Visit Site
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+        </div>
+      
+   {/* Explore GoBangla Section with Background Image behind cards */}
+     
 
               {/* Card 2 */}
               <div className="relative rounded-2xl overflow-hidden shadow-lg group hover:shadow-2xl transition duration-300 h-[300px] w-full">
@@ -217,7 +231,8 @@ export default function ServicePage() {
           </div>
         </div>
       </section>
- 
+
+       
       <Footer></Footer>
       
     </main>

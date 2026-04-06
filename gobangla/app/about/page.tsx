@@ -108,7 +108,7 @@ export default function AboutPage() {
           Multi-Sector Expertise
         </h3>
         <p className="text-black/70">
-          From e-commerce to e-learning and corporate services, GoBangla Group works across multiple industries—making it a one-stop solution for diverse business needs.
+          From e-commerce to e-learning and corporate services, GoBangla Group works across multiple industries making it a one-stop solution for diverse business needs.
         </p>
       </div>
 
