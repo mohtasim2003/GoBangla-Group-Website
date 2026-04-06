@@ -245,11 +245,11 @@ export default function ServicePage() {
         quality services and solutions to our customers worldwide. Find us in:
       </p>
 
-        <div className="w-full grid grid-cols-5 gap-2 text-gray-600 font-semibold text-md mb-4">
+        <div className="w-full grid grid-cols-7 gap-2 text-gray-600 font-semibold text-md mb-4">
         <p className="text-left">I. Bangladesh</p>
         <p className="text-left">II. Malaysia</p>
-        <p className="text-left">III. Nepal</p>
-        <p className="text-left">IV. India</p>
+        <p className="text-left">III. India</p>
+        <p className="text-left">IV. Nepal</p>
         <p className="text-left col-span-2">V. USA and more to come!</p>
        </div>
 
@@ -259,7 +259,7 @@ export default function ServicePage() {
       <Image src="/Nepal.jpg" alt="Nepal" width={200} height={80} className="rounded-lg shadow-md" />
       <Image src="/USA.jpg" alt="USA" width={200} height={80} className="rounded-lg shadow-md" />
     </div>
-    
+
     </div>
     </section>
            
