@@ -215,6 +215,16 @@ export default function Home() {
       />
         <p className="mt-2 font-semibold text-black flex justify-center">India</p>
       </div>
+
+      <div>
+        <img
+        src="/USA.jpg"
+        alt="USA"
+        className="rounded-xl w-40 h-40 object-cover"
+      />
+        <p className="mt-2 font-semibold text-black flex justify-center">USA</p>
+      </div>
+
     </div>
     
   </div>
