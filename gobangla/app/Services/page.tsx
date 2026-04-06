@@ -251,6 +251,7 @@ export default function ServicePage() {
       <Image src="/Nepal.jpg" alt="Nepal" width={200} height={80} className="rounded-lg shadow-md" />
       <Image src="/USA.jpg" alt="USA" width={200} height={80} className="rounded-lg shadow-md" />
       <Image src="/ThailandFlag.jpg" alt="Thailand" width={200} height={80} className="rounded-lg shadow-md" />
+      <Image src="/SriLanka.avif" alt="Sri Lanka" width={200} height={80} className="rounded-lg shadow-md" />
     </div>
 
     </div>
