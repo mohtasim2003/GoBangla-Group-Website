@@ -172,10 +172,10 @@ export default function Home() {
 </section>
 
     {/* Country Logos */}
-    <section className="py-20 flex justify-center bg-base-100 px-10">
-  <div className="shadow-lg max-w-6xl w-full p-6">
+    <section className="py-20 flex justify-center bg-base-00 px-10">
+  <div className="shadow-xl max-w-6xl w-full p-6 border-40 border-gray-300 rounded-xl bg-gray-100">
     <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
-      Global Presence
+      Our Global Presence
     </h3>
     {/* Image Row */}
     <div className="flex justify-center gap-6 flex-wrap">
