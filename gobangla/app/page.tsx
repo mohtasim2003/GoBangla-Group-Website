@@ -75,7 +75,7 @@ export default function Home() {
             competitive rates while building lasting success stories for our clients, investors, and stakeholders. 
             We believe that inclusive leadership, trust, and continuous innovation are the foundation of long-term 
             value and global impact.”<br></br>
-             - MD. Mostofa Jaman,<br></br> 
+             MD. Mostofa Jaman,<br></br> 
              Founder & CEO, GoBangla Group
           </p>
         </div>
