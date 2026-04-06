@@ -231,8 +231,38 @@ export default function ServicePage() {
           </div>
         </div>
       </section>
+      
 
-       
+      <section className="py-20 flex justify-center bg-base-00 px-10">
+  <div className="shadow-xl max-w-6xl w-full p-6  bg-base-100">
+    <h3 className="text-3xl font-bold text-black mb-4 flex justify-center text-yellow-400">
+      We are growing globally
+    </h3>
+    {/* Image Row */}
+    <div className="flex justify-center gap-6 flex-wrap">
+      <p className="text-gray-600 font-semibold text-md mb-4  w-full">
+        Our services have expanded to multiple countries. We are committed to providing 
+        quality services and solutions to our customers worldwide. Find us in:
+      </p>
+
+        <div className="w-full grid grid-cols-5 gap-2 text-gray-600 font-semibold text-md mb-4">
+        <p className="text-left">I. Bangladesh</p>
+        <p className="text-left">II. Malaysia</p>
+        <p className="text-left">III. Nepal</p>
+        <p className="text-left">IV. India</p>
+        <p className="text-left col-span-2">V. USA and more to come!</p>
+       </div>
+
+      <Image src="/bd.jpg" alt="Bangladesh" width={200} height={80} className="rounded-lg shadow-md" />
+      <Image src="/Maly.png" alt="Malaysia" width={200} height={80} className="rounded-lg shadow-md" />
+      <Image src="/India.png" alt="India" width={200} height={80} className="rounded-lg shadow-md" />
+      <Image src="/Nepal.jpg" alt="Nepal" width={200} height={80} className="rounded-lg shadow-md" />
+      <Image src="/USA.jpg" alt="USA" width={200} height={80} className="rounded-lg shadow-md" />
+    </div>
+    
+    </div>
+    </section>
+           
       <Footer></Footer>
       
     </main>
