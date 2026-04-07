@@ -152,7 +152,7 @@ export default function AboutPage() {
 
           {/* Card 2 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-            <Link href="" target="_blank">
+            <Link href="https://www.linkedin.com/in/mohd-sharulizzam-bin-saibon-50a122373/" target="_blank">
             <Image  
               src="/Shahrul_F.png"
               alt="Shahrul Ejump"
@@ -160,7 +160,7 @@ export default function AboutPage() {
               height={150}
               className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
-            <h3 className="text-md font-bold text-black">Shahrul Ejump</h3>
+            <h3 className="text-md font-bold text-black">Mohd Sharulizzam Bin Saibon</h3>
             <p className="text-sm text-base-content/70 text-black">
                Co-Founder, Stayin Malaysia 
             </p>
