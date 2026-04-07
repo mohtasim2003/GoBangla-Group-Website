@@ -186,7 +186,7 @@ export default function AboutPage() {
 
           {/* Card 4 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-            <Link href="" target="_blank">
+            <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
             <Image
               src="/Raisul.png"
               alt="Raisul Mahmud"
@@ -203,7 +203,7 @@ export default function AboutPage() {
 
             {/* Card 5 */}
             <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-              <Link href="" target="_blank">
+              <Link href="https://www.linkedin.com/in/wadudit" target="_blank">
                 <Image
                   src="/Abdul Wadud.jpeg"
                   alt="Abdul Wadud"
