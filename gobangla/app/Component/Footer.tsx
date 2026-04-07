@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
               <Image src="/instagram-logo.avif" alt="Instagram Logo" width={60} height={60} />
             </Link>
 
-            <Link href="">
+            <Link href="https://www.linkedin.com/in/gobangla64/">
               <Image src="/linkeLogo.webp" alt="LinkedIn Logo" width={80} height={80} />
             </Link>
           </div>
