@@ -235,40 +235,6 @@ export default function AboutPage() {
                 </Link>
                 </div>
 
-                {/* Card 7 */}
-                <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-                  <Link href="https://www.linkedin.com/in/nazibsarwarchowdhury/" target="_blank">
-                    <Image
-                      src="/Nazib.jpeg"
-                      alt="Nazib Sarwar Chowdhury"
-                      width={150}
-                      height={150}
-                      className="w-[150px] h-[150px] object-cover mx-auto mb-4"
-                    />
-                    <h3 className="text-md font-bold text-black">Nazib Sarwar Chowdhury</h3>
-                    <p className="text-sm text-base-content/70 text-black">
-                      Trainer
-                    </p>
-                  </Link>
-                  </div>
-
-                  {/* Card 8 */}
-                  <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-                    <Link href="https://www.linkedin.com/in/asitpaul96/" target="_blank">
-                      <Image
-                        src="/Asit.png"
-                        alt="Asit Paul"
-                        width={150}
-                        height={150}
-                        className="w-[150px] h-[150px] object-cover mx-auto mb-4"
-                      />
-                      <h3 className="text-md font-bold text-black">Asit Paul</h3>
-                      <p className="text-sm text-base-content/70 text-black">
-                        Trainer
-                      </p>
-                    </Link>
-                    </div>
-
         </div>
 
         </div>
