@@ -125,23 +125,23 @@ export default function AboutPage() {
 </section>
 
       <section className="py-24">
-        <div className="max-w-6xl mx-auto px-6 text-center">
+        <div className="max-w-6xl mx-auto px-6 text-center  p-10 ">
           <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
             Leadership Team 
           </h2>
 
-          <div className="grid md:grid-cols-4 gap-2">
+          <div className="grid md:grid-cols-4 gap-10">
   
           {/* Card 1 */}
-          <div className="card bg-base-200 p-6 text-center shadow-lg">
+          <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="https://www.linkedin.com/in/mostofa-jaman-46036357/" target="_blank">
             
             <Image  
-              src="/CEO.jfif"
+              src="/Profile1.jpeg"
               alt="Mostofa Jaman"
               width={150}
               height={150}
-              className=" mx-auto mb-4"
+              className=" w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
             <h3 className="text-md font-bold text-black">MD. Mostofa Jaman</h3>
             <p className="text-sm text-base-content/70 text-black">
@@ -151,14 +151,14 @@ export default function AboutPage() {
           </div>
 
           {/* Card 2 */}
-          <div className="card bg-base-200 p-6 text-center shadow-lg">
+          <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="" target="_blank">
             <Image  
               src="/Shahrul.png"
               alt="Shahrul Ejump"
               width={150}
               height={150}
-              className=" mx-auto mb-4"
+              className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
             <h3 className="text-xl font-bold text-black">Shahrul Ejump</h3>
             <p className="text-sm text-base-content/70 text-black">
@@ -168,14 +168,14 @@ export default function AboutPage() {
           </div>
 
           {/* Card 3 */}
-          <div className="card bg-base-200 p-6 text-center shadow-lg">
+          <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="" target="_blank">
             <Image  
               src="/Salma.jpeg"
               alt="Maria Salma"
               width={150}
               height={150}
-              className=" mx-auto mb-4"
+              className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
             <h3 className="text-xl font-bold text-black">Maria Salma</h3>
             <p className="text-sm text-base-content/70 text-black">
@@ -185,14 +185,14 @@ export default function AboutPage() {
             </div>
 
           {/* Card 4 */}
-          <div className="card bg-base-200 p-6 text-center shadow-lg">
+          <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="" target="_blank">
             <Image
               src="/Raisul.png"
               alt="Raisul Mahmud"
               width={150}
               height={150}
-              className=" mx-auto mb-4"
+              className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
             <h3 className="text-xl font-bold text-black">Raisul Mahmud</h3>
             <p className="text-sm text-base-content/70 text-black">
@@ -202,14 +202,14 @@ export default function AboutPage() {
             </div>
 
             {/* Card 5 */}
-            <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
               <Link href="" target="_blank">
                 <Image
                   src="/Abdul Wadud.jpeg"
                   alt="Abdul Wadud"
                   width={150}
                   height={150}
-                  className=" mx-auto mb-4"
+                  className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                 />
                 <h3 className="text-xl font-bold text-black">Abdul Wadud</h3>
                 <p className="text-sm text-base-content/70 text-black">
@@ -219,14 +219,14 @@ export default function AboutPage() {
             </div>
 
               {/* Card 6 */}
-              <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
                 <Link href="" target="_blank">
                   <Image
                     src="/"
                     alt="Syed Safi"
                     width={150}
                     height={150}
-                    className=" mx-auto mb-4"
+                    className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                   />
                   <h3 className="text-xl font-bold text-black">Syed Safi</h3>
                   <p className="text-sm text-base-content/70 text-black">
@@ -236,14 +236,14 @@ export default function AboutPage() {
                 </div>
 
                 {/* Card 7 */}
-                <div className="card bg-base-200 p-6 text-center shadow-lg">
+                <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
                   <Link href="https://www.linkedin.com/in/nazibsarwarchowdhury/" target="_blank">
                     <Image
                       src="/Nazib.jpeg"
                       alt="Nazib Sarwar Chowdhury"
                       width={150}
                       height={150}
-                      className=" mx-auto mb-4"
+                      className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                     />
                     <h3 className="text-xl font-bold text-black">Nazib Sarwar Chowdhury</h3>
                     <p className="text-sm text-base-content/70 text-black">
@@ -253,14 +253,14 @@ export default function AboutPage() {
                   </div>
 
                   {/* Card 8 */}
-                  <div className="card bg-base-200 p-6 text-center shadow-lg">
+                  <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
                     <Link href="https://www.linkedin.com/in/asitpaul96/" target="_blank">
                       <Image
                         src="/Asit.png"
                         alt="Asit Paul"
                         width={150}
                         height={150}
-                        className=" mx-auto mb-4"
+                        className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                       />
                       <h3 className="text-xl font-bold text-black">Asit Paul</h3>
                       <p className="text-sm text-base-content/70 text-black">
@@ -275,69 +275,69 @@ export default function AboutPage() {
       </section>
 
 
- {/* Success */}
-    <section className="py-20 flex justify-center bg-base-00 px-10">
-  <div className="shadow-xl max-w-6xl w-full p-6 border-5 border-gray-300 rounded-xl bg-gray-100">
-    <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
-      Milestones of Success
-    </h3>
-    {/* Image Row */}
-    <div className="flex justify-center gap-6 flex-wrap">
-      <div>
-        <img
-        src="/Achive1.jpg"
-        alt="Bangladesh"
-        className="rounded-xl w-50 h-50 object-cover"
-      />
-      </div>
+        {/* Success */}
+            <section className="py-20 flex justify-center bg-base-00 px-10">
+          <div className="shadow-xl max-w-6xl w-full p-6 border-5 border-gray-300 rounded-xl bg-gray-100">
+            <h3 className="text-3xl font-bold text-black mb-4 flex justify-center">
+              Milestones of Success
+            </h3>
+            {/* Image Row */}
+            <div className="flex justify-center gap-6 flex-wrap">
+              <div>
+                <img
+                src="/Achive1.jpg"
+                alt="Bangladesh"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
 
-      <div>
-        <img
-        src="/Achive2.jpeg"
-        alt="Malaysia"
-        className="rounded-xl w-60 h-50 object-cover"
-      />
-      </div>
+              <div>
+                <img
+                src="/Achive2.jpeg"
+                alt="Malaysia"
+                className="rounded-xl w-60 h-50 object-cover"
+              />
+              </div>
 
-      <div>
-        <img
-        src="/Achive3.jpeg"
-        alt="Nepal"
-        className="rounded-xl w-50 h-50 object-cover"
-      />
-      </div>
-
-
-      <div>
-        <img
-        src="/Achive4.jpeg"
-        alt="India"
-        className="rounded-xl w-50 h-50 object-cover"
-      />
-      </div>
-
-       <div>
-        <img
-        src="/Achive5.jpeg"
-        alt="India"
-        className="rounded-xl w-50 h-50 object-cover"
-      />
-      </div>
-
-      <div>
-        <img
-        src="/Achive6.jpeg"
-        alt="India"
-        className="rounded-xl w-50 h-50 object-cover"
-      />
-      </div>
-      
+              <div>
+                <img
+                src="/Achive3.jpeg"
+                alt="Nepal"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
 
 
-    </div>
-    
-  </div>
-</section>
+              <div>
+                <img
+                src="/Achive4.jpeg"
+                alt="India"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
+
+              <div>
+                <img
+                src="/Achive5.jpeg"
+                alt="India"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
+
+              <div>
+                <img
+                src="/Achive6.jpeg"
+                alt="India"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
+              
+
+
+            </div>
+            
+          </div>
+        </section>
 
 
 
@@ -351,58 +351,58 @@ export default function AboutPage() {
             Our Proud Membership
           </h2>
           </div>
-  <div className="max-w-4xl mx-auto px-6 flex justify-center items-center gap-8">
+          <div className="max-w-4xl mx-auto px-6 flex justify-center items-center gap-8">
     
-    <Image
-      src="/BassisLogo.png"
-      alt="Basis Logo"
-      width={150}
-      height={150}
-    />
+          <Image
+            src="/BassisLogo.png"
+            alt="Basis Logo"
+            width={150}
+            height={150}
+          />
 
-    <Image
-      src="/Ecablogo.png"
-      alt="Ecab Logo"
-      width={150}
-      height={150}
-    />
-     <Image
-      src="/ContracLogo.jpg"
-      alt="Contrac Logo"
-      width={100}
-      height={100}
-    />
-     <Image
-      src="/BwcciLogo.png"
-      alt="Bwcci Logo"
-      width={100}
-      height={100}
-    />
-    <Image
-      src="/BaccoLogo.jpg"
-      alt="Bacco Logo"
-      width={150}
-      height={150}
-    />
+          <Image
+            src="/Ecablogo.png"
+            alt="Ecab Logo"
+            width={150}
+            height={150}
+          />
+          <Image
+            src="/ContracLogo.jpg"
+            alt="Contrac Logo"
+            width={100}
+            height={100}
+          />
+          <Image
+            src="/BwcciLogo.png"
+            alt="Bwcci Logo"
+            width={100}
+            height={100}
+          />
+          <Image
+            src="/BaccoLogo.jpg"
+            alt="Bacco Logo"
+            width={150}
+            height={150}
+          />
 
-     <Image
-      src="/Caab.jfif"
-      alt="Bacco Logo"
-      width={150}
-      height={150}
-    />
-    <Image
-      src="/MocabLogo.webp"
-      alt="Bacco Logo"
-      width={150}
-      height={150}
-    />
+          <Image
+            src="/Caab.jfif"
+            alt="Bacco Logo"
+            width={150}
+            height={150}
+          />
+          <Image
+            src="/MocabLogo.webp"
+            alt="Bacco Logo"
+            width={150}
+            height={150}
+          />
 
 
-  </div>
-</section>
-      <Footer></Footer>
-      
-    </main>
-  );
+    </div>
+  </section>
+        <Footer></Footer>
+        
+      </main>
+    );
 }
