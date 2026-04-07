@@ -129,21 +129,40 @@ export default function AboutPage() {
           <h2 className="text-3xl md:text-4xl text-base-content font-bold mb-12 text-black">
             Leadership Team 
           </h2>
-          <div className="grid md:grid-cols-3 gap-10">
-            <div className="card bg-base-200 p-6 text-center shadow-lg">
-              <Image  
-                src="/Sabbir.jpg"
-                alt="Sabbir"
-                width={150}
-                height={150}
-                className="rounded-full mx-auto mb-4"
-              />
-              <h3 className="text-xl font-bold text-black">Sabbir Hossain</h3>
-              <p className="text-sm text-base-content/70 text-black">
-                Founder & CEO
-              </p>
-            </div>
+
+          <div className="grid md:grid-cols-4 gap-10">
+  
+          {/* Card 1 */}
+          <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Image  
+              src="/CEO.jpeg"
+              alt="Mostofa Jaman"
+              width={150}
+              height={150}
+              className=" mx-auto mb-4"
+            />
+            <h3 className="text-md font-bold text-black">MD. Mostofa Jaman</h3>
+            <p className="text-sm text-base-content/70 text-black">
+              Founder & CEO
+            </p>
           </div>
+
+          {/* Card 2 */}
+          <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Image  
+              src="/dev.jpg"
+              alt="Next Dev"
+              width={150}
+              height={150}
+              className="rounded-full mx-auto mb-4"
+            />
+            <h3 className="text-xl font-bold text-black">Next Dev</h3>
+            <p className="text-sm text-base-content/70 text-black">
+              Developer
+            </p>
+          </div>
+
+        </div>
 
         </div>
       </section>

@@ -54,7 +54,7 @@ export default function Home() {
         {/* Image */}
         <div className="flex-shrink-0">
         <img
-        src="/Profile.jpeg"
+        src="/Profile1.jpeg"
         alt="CEO"
         title="MD. Mostofa Jaman"
         className="rounded-xl w-70 h-85 object-cover"
