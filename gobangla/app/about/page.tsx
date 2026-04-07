@@ -154,7 +154,7 @@ export default function AboutPage() {
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="" target="_blank">
             <Image  
-              src="/Shahrul.png"
+              src="/Shahrul_F.png"
               alt="Shahrul Ejump"
               width={150}
               height={150}
