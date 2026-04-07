@@ -160,7 +160,7 @@ export default function AboutPage() {
               height={150}
               className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
-            <h3 className="text-xl font-bold text-black">Shahrul Ejump</h3>
+            <h3 className="text-md font-bold text-black">Shahrul Ejump</h3>
             <p className="text-sm text-base-content/70 text-black">
                Co-Founder, Stayin Malaysia 
             </p>
@@ -177,7 +177,7 @@ export default function AboutPage() {
               height={150}
               className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
-            <h3 className="text-xl font-bold text-black">Maria Salma</h3>
+            <h3 className="text-md font-bold text-black">Maria Salma</h3>
             <p className="text-sm text-base-content/70 text-black">
                Director & CHRO 
             </p>
@@ -194,7 +194,7 @@ export default function AboutPage() {
               height={150}
               className="w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
-            <h3 className="text-xl font-bold text-black">Raisul Mahmud</h3>
+            <h3 className="text-md font-bold text-black">Raisul Mahmud</h3>
             <p className="text-sm text-base-content/70 text-black">
                Director
             </p>
@@ -211,7 +211,7 @@ export default function AboutPage() {
                   height={150}
                   className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                 />
-                <h3 className="text-xl font-bold text-black">Abdul Wadud</h3>
+                <h3 className="text-md font-bold text-black">Abdul Wadud</h3>
                 <p className="text-sm text-base-content/70 text-black">
                   Head of Design
                 </p>
@@ -228,7 +228,7 @@ export default function AboutPage() {
                     height={150}
                     className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                   />
-                  <h3 className="text-xl font-bold text-black">Syed Safi</h3>
+                  <h3 className="text-md font-bold text-black">Syed Safi</h3>
                   <p className="text-sm text-base-content/70 text-black">
                     Head of Solutions
                   </p>
@@ -245,7 +245,7 @@ export default function AboutPage() {
                       height={150}
                       className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                     />
-                    <h3 className="text-xl font-bold text-black">Nazib Sarwar Chowdhury</h3>
+                    <h3 className="text-md font-bold text-black">Nazib Sarwar Chowdhury</h3>
                     <p className="text-sm text-base-content/70 text-black">
                       Trainer
                     </p>
@@ -262,7 +262,7 @@ export default function AboutPage() {
                         height={150}
                         className="w-[150px] h-[150px] object-cover mx-auto mb-4"
                       />
-                      <h3 className="text-xl font-bold text-black">Asit Paul</h3>
+                      <h3 className="text-md font-bold text-black">Asit Paul</h3>
                       <p className="text-sm text-base-content/70 text-black">
                         Trainer
                       </p>
