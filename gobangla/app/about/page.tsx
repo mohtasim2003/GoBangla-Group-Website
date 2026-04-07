@@ -130,12 +130,14 @@ export default function AboutPage() {
             Leadership Team 
           </h2>
 
-          <div className="grid md:grid-cols-4 gap-10">
+          <div className="grid md:grid-cols-4 gap-2">
   
           {/* Card 1 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Link href="https://www.linkedin.com/in/mostofa-jaman-46036357/" target="_blank">
+            
             <Image  
-              src="/CEO.jpeg"
+              src="/CEO.jfif"
               alt="Mostofa Jaman"
               width={150}
               height={150}
@@ -145,22 +147,127 @@ export default function AboutPage() {
             <p className="text-sm text-base-content/70 text-black">
               Founder & CEO
             </p>
+            </Link>
           </div>
 
           {/* Card 2 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Link href="" target="_blank">
             <Image  
-              src="/dev.jpg"
-              alt="Next Dev"
+              src="/Shahrul.png"
+              alt="Shahrul Ejump"
               width={150}
               height={150}
-              className="rounded-full mx-auto mb-4"
+              className=" mx-auto mb-4"
             />
-            <h3 className="text-xl font-bold text-black">Next Dev</h3>
+            <h3 className="text-xl font-bold text-black">Shahrul Ejump</h3>
             <p className="text-sm text-base-content/70 text-black">
-              Developer
+               Co-Founder, Stayin Malaysia 
             </p>
+            </Link>
           </div>
+
+          {/* Card 3 */}
+          <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Link href="" target="_blank">
+            <Image  
+              src="/Salma.jpeg"
+              alt="Maria Salma"
+              width={150}
+              height={150}
+              className=" mx-auto mb-4"
+            />
+            <h3 className="text-xl font-bold text-black">Maria Salma</h3>
+            <p className="text-sm text-base-content/70 text-black">
+               Director & CHRO 
+            </p>
+            </Link>
+            </div>
+
+          {/* Card 4 */}
+          <div className="card bg-base-200 p-6 text-center shadow-lg">
+            <Link href="" target="_blank">
+            <Image
+              src="/Raisul.png"
+              alt="Raisul Mahmud"
+              width={150}
+              height={150}
+              className=" mx-auto mb-4"
+            />
+            <h3 className="text-xl font-bold text-black">Raisul Mahmud</h3>
+            <p className="text-sm text-base-content/70 text-black">
+               Director
+            </p>
+            </Link>
+            </div>
+
+            {/* Card 5 */}
+            <div className="card bg-base-200 p-6 text-center shadow-lg">
+              <Link href="" target="_blank">
+                <Image
+                  src="/Abdul Wadud.jpeg"
+                  alt="Abdul Wadud"
+                  width={150}
+                  height={150}
+                  className=" mx-auto mb-4"
+                />
+                <h3 className="text-xl font-bold text-black">Abdul Wadud</h3>
+                <p className="text-sm text-base-content/70 text-black">
+                  Head of Design
+                </p>
+              </Link>
+            </div>
+
+              {/* Card 6 */}
+              <div className="card bg-base-200 p-6 text-center shadow-lg">
+                <Link href="" target="_blank">
+                  <Image
+                    src="/"
+                    alt="Syed Safi"
+                    width={150}
+                    height={150}
+                    className=" mx-auto mb-4"
+                  />
+                  <h3 className="text-xl font-bold text-black">Syed Safi</h3>
+                  <p className="text-sm text-base-content/70 text-black">
+                    Head of Solutions
+                  </p>
+                </Link>
+                </div>
+
+                {/* Card 7 */}
+                <div className="card bg-base-200 p-6 text-center shadow-lg">
+                  <Link href="https://www.linkedin.com/in/nazibsarwarchowdhury/" target="_blank">
+                    <Image
+                      src="/Nazib.jpeg"
+                      alt="Nazib Sarwar Chowdhury"
+                      width={150}
+                      height={150}
+                      className=" mx-auto mb-4"
+                    />
+                    <h3 className="text-xl font-bold text-black">Nazib Sarwar Chowdhury</h3>
+                    <p className="text-sm text-base-content/70 text-black">
+                      Trainer
+                    </p>
+                  </Link>
+                  </div>
+
+                  {/* Card 8 */}
+                  <div className="card bg-base-200 p-6 text-center shadow-lg">
+                    <Link href="https://www.linkedin.com/in/asitpaul96/" target="_blank">
+                      <Image
+                        src="/Asit.png"
+                        alt="Asit Paul"
+                        width={150}
+                        height={150}
+                        className=" mx-auto mb-4"
+                      />
+                      <h3 className="text-xl font-bold text-black">Asit Paul</h3>
+                      <p className="text-sm text-base-content/70 text-black">
+                        Trainer
+                      </p>
+                    </Link>
+                    </div>
 
         </div>
 
