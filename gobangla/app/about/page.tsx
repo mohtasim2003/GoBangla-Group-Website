@@ -143,7 +143,7 @@ export default function AboutPage() {
               height={150}
               className=" w-[150px] h-[150px] object-cover mx-auto mb-4"
             />
-            <h3 className="text-md font-bold text-black">MD. Mostofa Jaman</h3>
+            <h3 className="text-md font-bold text-black">Mohammad Mostofa Jaman</h3>
             <p className="text-sm text-base-content/70 text-black">
               Founder & CEO
             </p>
@@ -169,9 +169,9 @@ export default function AboutPage() {
 
           {/* Card 3 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-            <Link href="" target="_blank">
+            <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
             <Image  
-              src="/Salma.jpeg"
+              src="/Salma_F.png"
               alt="Maria Salma"
               width={150}
               height={150}
@@ -188,7 +188,7 @@ export default function AboutPage() {
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
             <Image
-              src="/Raisul.png"
+              src="/Raisul_Formal.png"
               alt="Raisul Mahmud"
               width={150}
               height={150}
@@ -293,6 +293,14 @@ export default function AboutPage() {
               <div>
                 <img
                 src="/Achive6.jpeg"
+                alt="India"
+                className="rounded-xl w-50 h-50 object-cover"
+              />
+              </div>
+
+              <div>
+                <img
+                src="/RisingYouth.jpg"
                 alt="India"
                 className="rounded-xl w-50 h-50 object-cover"
               />
