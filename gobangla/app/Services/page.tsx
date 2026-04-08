@@ -218,7 +218,7 @@ export default function ServicePage() {
                     Our umbrella organization driving all GoBangla ventures.
                   </p>
                   <div className="card-actions flex justify-end">
-                    <Link href="https://www.facebook.com/gobanglasolutions" target="_blank">
+                    <Link href="https://www.gobanglagroup.com/" target="_blank">
                       <button className="bg-blue-600 text-white px-3 py-1 rounded-lg shadow-md hover:bg-blue-700 hover:scale-105 transition duration-300 text-sm">
                         Visit Site
                       </button>
