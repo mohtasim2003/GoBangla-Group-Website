@@ -169,7 +169,7 @@ export default function AboutPage() {
 
           {/* Card 3 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
-            <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
+            <Link href="" target="_blank">
             <Image  
               src="/Salma_F.png"
               alt="Maria Salma"
