@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
           {/* Social Icons */}
           <div className="absolute top-8 right-4 flex gap-3">
             <Link href="">
-              <Image src="/Fblogo.png" alt="Facebook Logo" width={60} height={60} />
+              <Image src="/FbLogo1.png" alt="Facebook Logo" width={60} height={60} />
             </Link>
 
             <Link href="https://wa.me/+8801841779909">
@@ -96,7 +96,7 @@ const Footer: React.FC = () => {
         <h6 className="text-md text-white text-center">
           Copyright © 2026 • All Rights Reserved
           <br />
-          Developed by GoBangla IT Team
+          Developed by GoBangla Solutions
         </h6>
       </nav>
     </footer>
