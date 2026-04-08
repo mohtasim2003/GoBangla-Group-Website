@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
             </Link>
 
             <Link href="">
-              <Image src="/instagram-logo.avif" alt="Instagram Logo" width={60} height={60} />
+              <Image src="/InstagramLogo.png" alt="Instagram Logo" width={60} height={60} />
             </Link>
 
             <Link href="https://www.linkedin.com/in/gobangla64/">
