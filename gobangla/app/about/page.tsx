@@ -171,7 +171,7 @@ export default function AboutPage() {
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
             <Image  
-              src="/Salma1.png"
+              src="/Salma_F.png"
               alt="Maria Salma"
               width={150}
               height={150}
@@ -188,7 +188,7 @@ export default function AboutPage() {
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
             <Link href="https://www.linkedin.com/in/raisulmahmud/" target="_blank">
             <Image
-              src="/Raisul_F.png"
+              src="/Raisul_Formal.png"
               alt="Raisul Mahmud"
               width={150}
               height={150}
