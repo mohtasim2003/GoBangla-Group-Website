@@ -1,11 +1,12 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export',
   images: {
     unoptimized: true,
   },
-  assetPrefix: './', // 🔥 CRITICAL FIX
+
+  // If you ever want static export (Hostinger only)
+  // output: 'export',
 };
 
 export default nextConfig;
