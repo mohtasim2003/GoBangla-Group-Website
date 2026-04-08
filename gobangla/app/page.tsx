@@ -209,7 +209,7 @@ export default function Home() {
 
       <div>
         <img
-        src="/india.png"
+        src="/India.png"
         alt="India"
         className="rounded-xl w-40 h-40 object-cover"
       />
