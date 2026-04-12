@@ -41,7 +41,7 @@ const Footer: React.FC = () => {
           </p>
 
           <p className="text-md text-white mt-2">
-            2/1 block A Lalmatia, Dhaka-1207, Bangladesh
+            2/1 block: A, Lalmatia, Dhaka-1207, Bangladesh
             <br />
             Phone:
             <Link href="tel:+8801841779908-10" className="text-blue-400 hover:underline">
