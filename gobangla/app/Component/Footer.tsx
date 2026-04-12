@@ -49,8 +49,8 @@ const Footer: React.FC = () => {
             </Link>
             <br />
             Email:
-            <Link href="mailto:gobangla@gmail.com" className="text-blue-400 hover:underline">
-              gobangla@gmail.com
+            <Link href="mailto:info@gobanglagroup.com" className="text-blue-400 hover:underline">
+              info@gobanglagroup.com
             </Link>
           </p>
         </div>
