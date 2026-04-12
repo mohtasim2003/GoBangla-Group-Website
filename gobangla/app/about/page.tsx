@@ -130,7 +130,7 @@ export default function AboutPage() {
             Leadership Team 
           </h2>
 
-          <div className="grid md:grid-cols-4 gap-10">
+          <div className="grid md:grid-cols-3 gap-10">
   
           {/* Card 1 */}
           <div className="card bg-base-200 p-6 text-center shadow-lg h-full flex flex-col justify-between">
