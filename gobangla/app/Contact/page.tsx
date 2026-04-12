@@ -109,9 +109,9 @@ export default function ContactPage() {
             <p className="leading-relaxed mb-6 text-black">
               For inquiries, support, or partnership opportunities:
               <br />
-              <span className="font-semibold">Email:</span> contact@gobangla.com <br />
+              <span className="font-semibold">Email:</span> info@gobanglagroup.com <br />
               <span className="font-semibold">Phone:</span> +880 1841779908-10 <br />
-              <span className="font-semibold">Address:</span> 2/1 Lalmatia, Dhaka-1207, Bangladesh
+              <span className="font-semibold">Address:</span> 2/1 block: A, Lalmatia, Dhaka-1207, Bangladesh
             </p>
           </div>
 
