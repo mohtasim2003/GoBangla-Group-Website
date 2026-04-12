@@ -16,29 +16,27 @@ const Navbar: React.FC = () => {
     }`;
 
   return (
-    <div className="w-full bg-white shadow-md px-4 md:px-6 py-4 fixed top-0 left-0 z-50">
+    <div className="w-full navbar bg-white shadow-md px-6 py-4 fixed top-0 left-0 z-50 flex flex-col md:flex-row md:items-center gap-3">
       
-      {/* Top Bar */}
-      <div className="flex items-center justify-between">
+      {/* Top Row (Logo + Title + Hamburger) */}
+      <div className="flex items-center justify-between w-full md:w-auto">
         
-        {/* Logo + Title */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
           <Link href="/">
             <Image
               src="/Logo.png"
               alt="Logo"
-              width={60}
-              height={60}
-              className="w-[50px] md:w-[80px] h-auto"
+              width={80}
+              height={80}
             />
           </Link>
 
-          <span className="text-lg md:text-2xl font-semibold text-blue-900">
+          <span className="text-2xl font-semibold text-blue-900 text-align-center">
             GoBangla Group
           </span>
         </div>
 
-        {/* Hamburger Button (Mobile Only) */}
+        {/* Hamburger (ONLY MOBILE) */}
         <button
           className="md:hidden text-2xl text-blue-900"
           onClick={() => setOpen(!open)}
@@ -47,11 +45,14 @@ const Navbar: React.FC = () => {
         </button>
       </div>
 
-      {/* Menu Links */}
+      {/* Navigation Links */}
       <div
-        className={`${
-          open ? "flex" : "hidden"
-        } flex-col md:flex md:flex-row md:items-center gap-3 md:gap-4 mt-4 md:mt-0 md:ml-auto text-lg font-medium`}
+        className={`
+          ${open ? "flex" : "hidden"} 
+          flex-col w-full mt-3
+          md:mt-0 md:flex md:flex-row md:w-auto md:ml-auto md:items-center
+          gap-4 text-lg font-medium text-blue-900
+        `}
       >
         <Link href="/" className={navLink("/")}>
           Home
