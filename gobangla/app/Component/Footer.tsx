@@ -6,9 +6,9 @@ import Image from "next/image";
 const Footer: React.FC = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-[#02022b] text-gray-800 px-4 py-6 items-start min-h-[220px]">
-      
+
       {/* Left Section */}
-      <aside className="flex flex-col justify-start h-full">
+      <aside className="flex flex-col justify-start h-full w-full sm:w-auto">
         <div className="relative w-full">
 
           {/* Top Right Text */}
@@ -36,11 +36,11 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Left Content */}
-          <p className="text-2xl font-semibold text-white mt-4 md:mt-0">
+          <p className="text-2xl font-semibold text-white mt-20 md:mt-0 text-center md:text-left">
             GoBangla Group
           </p>
 
-          <p className="text-md text-white mt-2">
+          <p className="text-md text-white mt-2 text-center md:text-left">
             2/1 block: A, Lalmatia, Dhaka-1207, Bangladesh
             <br />
             Phone:
@@ -57,33 +57,29 @@ const Footer: React.FC = () => {
       </aside>
 
       {/* Center Section */}
-      <nav className="flex flex-col justify-start items-center text-center h-full">
-        
+      <nav className="flex flex-col justify-start items-center text-center h-full w-full sm:w-auto">
         <h2 className="text-4xl font-bold text-yellow-400 mb-2">
           GoBangla Group
         </h2>
-
         <h6 className="text-md text-white">
           Empowering Skills and Digital Transformation Since-2016
         </h6>
       </nav>
 
       {/* Right Section */}
-      <nav className="flex flex-col justify-between h-full">
-        
+      <nav className="flex flex-col justify-between h-full items-center w-full sm:w-auto">
+
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg width={24} height={24} viewBox="0 0 24 24" className="fill-current">
               <path d="M24 4.557c-.883..." />
             </svg>
           </a>
-
           <a>
             <svg width={24} height={24} viewBox="0 0 24 24" className="fill-current">
               <path d="M19.615 3.184c-3.604..." />
             </svg>
           </a>
-
           <a>
             <svg width={24} height={24} viewBox="0 0 24 24" className="fill-current">
               <path d="M9 8h-3v4h3..." />
@@ -97,6 +93,7 @@ const Footer: React.FC = () => {
           Developed by GoBangla Solutions
         </h6>
       </nav>
+
     </footer>
   );
 };
