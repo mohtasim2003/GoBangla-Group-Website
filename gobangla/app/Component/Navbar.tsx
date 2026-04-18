@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
         <div className="flex items-center gap-3">
           <Link href="/">
             <Image
-              src="/Logo.png"
+              src="/GroupLogo.png"
               alt="Logo"
               width={80}
               height={80}
