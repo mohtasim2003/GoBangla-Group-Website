@@ -10,14 +10,14 @@ const Footer: React.FC = () => {
       {/* Left Section */}
       <aside className="flex flex-col justify-start h-full">
         <div className="relative w-full">
-          
+
           {/* Top Right Text */}
-          <p className="absolute top-0 right-20 text-2xl font-semibold text-white">
+          <p className="text-2xl font-semibold text-white md:absolute md:top-0 md:right-20 text-center md:text-left">
             Follow Us On
           </p>
 
           {/* Social Icons */}
-          <div className="absolute top-8 right-4 flex gap-3">
+          <div className="flex gap-3 justify-center mt-2 md:mt-0 md:absolute md:top-8 md:right-4">
             <Link href="">
               <Image src="/FbLogo1.png" alt="Facebook Logo" width={60} height={60} />
             </Link>
@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
           </div>
 
           {/* Left Content */}
-          <p className="text-2xl font-semibold text-white">
+          <p className="text-2xl font-semibold text-white mt-4 md:mt-0">
             GoBangla Group
           </p>
 
@@ -71,7 +71,6 @@ const Footer: React.FC = () => {
       {/* Right Section */}
       <nav className="flex flex-col justify-between h-full">
         
-        {/* Top Icons */}
         <div className="grid grid-flow-col gap-4">
           <a>
             <svg width={24} height={24} viewBox="0 0 24 24" className="fill-current">
@@ -92,7 +91,6 @@ const Footer: React.FC = () => {
           </a>
         </div>
 
-        {/* Bottom Copyright */}
         <h6 className="text-md text-white text-center">
           Copyright © 2026 • All Rights Reserved
           <br />
