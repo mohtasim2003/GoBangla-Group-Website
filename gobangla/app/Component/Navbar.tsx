@@ -46,6 +46,10 @@ const Navbar: React.FC = () => {
         Services
       </Link>
 
+      <Link href="/Life-At-GoBangla" className={navLink("/Life-At-GoBangla")}>
+        Life at GoBangla
+      </Link>
+
       <Link href="/Contact" className={navLink("/Contact")}>
         Contact
       </Link>
