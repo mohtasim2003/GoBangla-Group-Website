@@ -9,7 +9,7 @@ import LifeSlider from "../Component/LifeSlider";
 
 const LifeAtGoBanglaPage: React.FC = () => {
   return (
-    <main className="bg-white">
+    <main className="bg-white pt-[100px]">
       <Navbar />
 
       {/* HERO */}
