@@ -62,14 +62,13 @@ const Navbar: React.FC = () => {
           About
         </Link>
 
-          <Link href="/Services" className={navLink("/Services")}>
-            Services
-          </Link>
+        <Link href="/Services" className={navLink("/Services")}>
+          Services
+        </Link>
 
-          <Link href="/Life-At-GoBangla" className={navLink("/Life-At-GoBangla")}>
-            Life at GoBangla
-          </Link>
-
+        <Link href="/Life-At-GoBangla" className={navLink("/Life-At-GoBangla")}>
+          Life at GoBangla
+        </Link>
 
 
         <Link href="/Contact" className={navLink("/Contact")}>
