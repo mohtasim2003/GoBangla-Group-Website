@@ -71,7 +71,7 @@ export default function Home() {
               competitive rates while building lasting success stories for our clients, investors, and stakeholders. 
               We believe that inclusive leadership, trust, and continuous innovation are the foundation of long-term 
               value and global impact.”<br></br>
-              MD. Mostofa Jaman,<br></br> 
+              Mohammad Mostofa Jaman,<br></br> 
               Founder & CEO, GoBangla Group
             </p>
           </div>
@@ -107,41 +107,50 @@ export default function Home() {
       </section>
 
       {/* BUSINESS UNITS */}
-      <section
-        className="relative bg-center bg-cover"
-        style={{ backgroundImage: "url('/BusinessBG3.jpg')" }}
-      >
-        <div className="absolute inset-0 bg-black/30"></div>
+<section
+  className="relative bg-center bg-cover"
+  style={{ backgroundImage: "url('/BusinessBG3.jpg')" }}
+>
+  <div className="absolute inset-0 bg-black/30"></div>
 
-        <div className="relative max-w-6xl mx-auto px-4 md:px-6 py-20 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-6">
-            Strategic Business Units
-          </h2>
+  <div className="relative max-w-6xl mx-auto px-4 md:px-6 py-20 text-center">
+    <h2 className="text-3xl md:text-4xl font-bold text-yellow-500 mb-6">
+      Strategic Business Units
+    </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 justify-items-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 justify-items-center">
+      {[
+        { src: "/GroupLogo.png", label: "GoBangla Group" },
+        { src: "/Solutions.jpg", label: "GoBangla Solutions" },
+        { src: "/Academy.jpg", label: "Learn with GoBangla" },
+        { src: "/ToursLogo.jpg", label: "GoBangla Tours & Travels" },
+        { src: "/SL.png", label: "Shikbe Sobai" },
+        { src: "/StayinLogo.jpg", label: "Stayin Malaysia" },
+      ].map((item, i) => (
+        <div key={i} className="w-full max-w-[340px]">
+          
+          <div className="w-full h-[180px] sm:h-[200px] md:h-[220px] flex items-center justify-center bg-white rounded-xl overflow-hidden">
+            
+            <img
+              src={item.src}
+              alt={item.label}
+              className={
+                item.label === "Shikbe Sobai"
+                  ? "w-full h-full object-cover scale-125"
+                  : "max-w-full max-h-full object-contain"
+              }
+            />
 
-            {[
-              { src: "/Logo.png", label: "GoBangla Group" },
-              { src: "/Solutions.jpg", label: "GoBangla Solutions" },
-              { src: "/Academy.jpg", label: "Learn with GoBangla" },
-              { src: "/ToursLogo.jpg", label: "GoBangla Tours & Travels" },
-              { src: "/ShikbeLogo.jpg", label: "Shikbe Sobai" },
-              { src: "/StayinLogo.jpg", label: "Stayin Malaysia" },
-            ].map((item, i) => (
-              <div key={i}>
-                <img
-                  src={item.src}
-                  alt={item.label}
-                  className="rounded-xl w-full max-w-[380px] h-[260px] object-cover"
-                />
-                <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
-                  {item.label}
-                </p>
-              </div>
-            ))}
           </div>
+
+          <p className="mt-2 text-xl font-semibold text-[#28eb5d] text-center">
+            {item.label}
+          </p>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* GLOBAL */}
       <section className="py-10 md:py-20 flex justify-center px-4 md:px-10">
