@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function ServiceSlider() {
-  const images = [ "/Logo.png", "/Logo.jpg", "/Solutions.jpg", "/Academy.jpg", "/ToursLogo.jpg",
+  const images = [ "GroupLogo.png", "/Logo.jpg", "/Solutions.jpg", "/Academy.jpg", "/ToursLogo.jpg",
     "/ShikbeLogo.jpg", "/StayinLogo.jpg"];
 
   const [index, setIndex] = useState(0);

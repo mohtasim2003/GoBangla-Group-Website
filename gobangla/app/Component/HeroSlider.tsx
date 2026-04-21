@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 export default function HeroSlider() {
-  const images = ["/Logo.jpg", "/RisingYouth.jpg", "/G&Windy_MoU.jpeg", "/B_Certificate.jpeg", 
+  const images = ["/GroupLogo.png", "/RisingYouth.jpg", "/G&Windy_MoU.jpeg", "/B_Certificate.jpeg", 
     "/Thailand.jpeg","/Jetwin.jpeg"];
   const [index, setIndex] = useState(0);
   const [animate, setAnimate] = useState(true);
