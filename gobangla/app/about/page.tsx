@@ -8,7 +8,7 @@ import Image from "next/image";
 
 export default function AboutPage() {
   return (
-    <main className="bg-white">
+    <main className="bg-white pt-20">
       <Navbar></Navbar>
 
       {/* HERO */}

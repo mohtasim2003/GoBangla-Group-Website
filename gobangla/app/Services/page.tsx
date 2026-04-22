@@ -9,7 +9,7 @@ import ServiceSlider from "../Component/ServiceSlider";
 
 export default function ServicePage() {
   return (
-    <main className="bg-white">
+    <main className="bg-white pt-20">
       <Navbar></Navbar>
 
       {/* HERO */}
