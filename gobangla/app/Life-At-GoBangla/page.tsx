@@ -105,6 +105,15 @@ const LifeAtGoBanglaPage: React.FC = () => {
         </div>
       </section>
 
+      <section className="max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-12">
+        <h2 className="text-2xl sm:text-3xl font-semibold text-center mb-6 md:mb-8 text-blue-900">
+          <button className="mt-10 mb-20 block mx-auto px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-800 hover:from-purple-600 hover:to-purple-800 text-white font-bold text-lg rounded-lg shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 ease-in-out transform hover:-translate-y-1 active:scale-95">
+        <Link href="/Life-At-GoBangla/Career">Build Your Career at GoBangla</Link>
+      </button>
+        </h2>
+      
+      </section>
+
       <Footer />
     </main>
   );
