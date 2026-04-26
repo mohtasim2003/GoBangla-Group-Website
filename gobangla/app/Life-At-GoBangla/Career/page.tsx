@@ -86,6 +86,17 @@ const jobOpenings: JobCard[] = [
     requirements: ['React Native or Flutter', 'Mobile UI design', 'API integration', 'Version control expertise'],
     color: '#ef4444',
   },
+
+  {
+    id: 8,
+    title: 'HR Business Partner',
+    department: 'Human Resources',
+    location: 'Remote',
+    type: 'Full-time',
+    description: 'Support strategic HR initiatives and ensure effective talent management across the organization.',
+    requirements: ['HR experience', 'Employee relations', 'Recruitment expertise', 'Training and development'],
+    color: '#f97316',
+  }
 ];
 
 const departments = ['All', ...Array.from(new Set(jobOpenings.map(j => j.department)))];
@@ -97,6 +108,7 @@ const deptIcons: Record<string, string> = {
   Marketing: '📣',
   'Data & Analytics': '📊',
   Infrastructure: '🏗️',
+  'Human Resources': '👥',
 };
 
 export default function CareerPage() {
