@@ -323,7 +323,7 @@ export default function CareerPage() {
 
             {/* Title */}
             <h1 className="fu2" style={{ fontSize: 'clamp(2.6rem, 6vw, 4.2rem)', fontWeight: 800, lineHeight: 1.1, color: '#0f172a', margin: '0 0 8px', letterSpacing: '-0.03em' }}>
-              Build the Future<br />
+              Build your Future<br />
               <span className="grad-text">with GoBangla</span>
             </h1>
 
