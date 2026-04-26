@@ -71,7 +71,7 @@ const jobOpenings: JobCard[] = [
   },
 ];
 
-const googleFormLink = 'https://forms.gle/your-google-form-link';
+const googleFormLink = 'https://forms.gle/JXDoBmAB7UMs5XTq8';
 
 export default function CareerPage() {
   return (
@@ -133,7 +133,7 @@ export default function CareerPage() {
 
               {/* Apply Button */}
               <a
-                href={googleFormLink}
+                href={'https://forms.gle/JXDoBmAB7UMs5XTq8'}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-4 rounded-lg transition-colors duration-200 text-center"
@@ -153,7 +153,7 @@ export default function CareerPage() {
             We're always looking for talented people. Send us your resume and let's talk about how you can contribute to GoBangla.
           </p>
           <a
-            href={googleFormLink}
+            href={'https://forms.gle/JXDoBmAB7UMs5XTq8'}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-gray-900 hover:bg-gray-800 text-white font-semibold py-3 px-8 rounded-lg transition-colors duration-200"
