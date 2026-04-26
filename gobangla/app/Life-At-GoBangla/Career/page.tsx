@@ -89,7 +89,7 @@ const jobOpenings: JobCard[] = [
 ];
 
 const departments = ['All', ...Array.from(new Set(jobOpenings.map(j => j.department)))];
-const googleFormLink = 'https://forms.gle/your-google-form-link';
+const googleFormLink = 'https://forms.gle/usSu3ogHc2K7QXcZ6';
 
 const deptIcons: Record<string, string> = {
   Engineering: '⚙️',
@@ -462,7 +462,7 @@ export default function CareerPage() {
 
                 {/* Apply button */}
                 <a
-                  href={googleFormLink}
+                  href={'https://forms.gle/usSu3ogHc2K7QXcZ6'}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="apply-btn"
@@ -484,7 +484,7 @@ export default function CareerPage() {
             <p style={{ fontSize: 15, color: '#6b7280', maxWidth: 460, margin: '0 auto 32px', lineHeight: 1.75 }}>
               We're always on the lookout for exceptional talent. Send us your portfolio and let's start a conversation.
             </p>
-            <a href={googleFormLink} target="_blank" rel="noopener noreferrer" className="main-cta-btn">
+            <a href={'https://forms.gle/usSu3ogHc2K7QXcZ6'} target="_blank" rel="noopener noreferrer" className="main-cta-btn">
               Submit Open Application →
             </a>
           </div>
